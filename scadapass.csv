@@ -16,8 +16,8 @@ B&B ELECTRONICS,XR5i v2E/XR5i v2/XR5i/XR5i SL,root:root,80/tcp,Industrial router
 Beck IPC, IPC@CHIP,"PPPSERVER:, ppps:ppps",,PLC,pap/chap,https://www.beck-ipc.com/files/api/scxxx/config.htm
 BinTec Elmeg,BinTec X1200 II,"admin:bintec, ",,Router,,http://www.router-defaults.com/Router/BinTec--x1200-ip-password-username
 BinTec Elmeg,any routers,"(##unknown - means not known or any char):, ##unknown:snmp-Trap , suggested:, admin:1234, admin:password, admin:admin",,Router,,http://www.router-defaults.com/Router/BinTec--x1200-ip-password-username
-BinTec Elmeg,BinTec R230aw,admin:funwerk,,Router,,http://www.tomshw.it/forum/banda-larga/154194-router-bintec.html
-BinTec Elmeg,"bintec W2002T-n, ","admin:funwerk, admin:admin",,WLAN Access Point for applications in rolling stocks,,bintec W2002T-n.jpeg
+BinTec Elmeg,BinTec R230aw,admin:funkwerk,,Router,,http://www.tomshw.it/forum/banda-larga/154194-router-bintec.html
+BinTec Elmeg,"bintec W2002T-n, ","admin:funkwerk, admin:admin",,WLAN Access Point for applications in rolling stocks,,http://www.bintec-elmeg.com/download.php?src=portal/downloadcenter/dateien/w2002tn/documentation/Notes-default-password-standard-passwort.pdf&system_id=138324
 Contemporary Control Systems,BASRT-B,admin:admin,80/tcp,Router,http,http://www.ccontrols.com/pdf/TD0712000I2.pdf
 Datasensor,UR5i/UR5i SL,root:root,80/tcp,Router,http,http://datasensor.de/sites/datasensor.de/files/datasheets/UR5i_m_e.pdf
 Digi,DC-ME-01T-S,"user:passwd, root:dbps",,Networking Modules,,http://www.digi.com/support/forum/13553/digi-connect-me-default-password
