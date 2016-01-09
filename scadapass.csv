@@ -59,7 +59,7 @@ moxa,EDS-508A/505A Series,admin:<none>,,Switch,telnet or serial console,http://w
 Moxa,OnCell G3100,Admin:Keep <blank>,23/tcp,cellular IP gateways,telnet,http://www.moxa.com/doc/man/OnCell_G3100_Series_Users_Manual_v7.pdf
 Netcomm Wireless,"3G21WB (BigPond Firmware), 3G9WB (BigPond Firmware), N3G001W (Netcomm Firmware), NB14WN (Netcomm Firmware), NB5 (Netcomm Firmware), NB5Plus4 (Netcomm Firmware), NB6Plus4 (Netcomm Firmware), NB6Plus4W (Netcomm Firmware), NNB7 (Netcomm Firmware), NB9WMAXX (Netcomm Firmware), NP804N (Netcomm Firmware)",admin:admin,,Router,,http://www.pcwintech.com/default-router-modem-passwords2
 Netcomm Wireless,"NB1300 Plus 4 (Netcomm Firmware), NP803N (Netcomm Firmware)",admin:password,,Router,,http://www.pcwintech.com/default-router-modem-passwords2
-NOVUS AUTOMATION,Superview,superview:superview ,,SCADA,,http://www.scigiene.com/pdfs/Superview%20Manual.pdf
+NOVUS AUTOMATION,SuperView,superview:superview,,SCADA,,http://www.novusautomation.com/downloads/Arquivos/v29x_a_manual_superview_english.pdf
 OMRON IA,CJ1M CPU Units with Ethernet Functions,"for http: ETHERNET, for ftp: CONFIDENTIAL","80/tcp (http), 21/tcp (ftp)",PLC,"http, ftp",http://omronkft.hu/nostree/pdfs/plc/cs1_cj1/w441-e1-03+cj-series-ethernetfunc+opermanual.pdf
 Ouman ,EH-net server,admin:admin,,HMI Software,,http://docplayer.fi/509891-Palvelin-eh-net-kayttoonotto-ja-yllapito-www-ouman-fi.html
 Phoenix Contact,Logic+,admin:admin,80/tcp,Software,http,https://www.phoenixcontact.com/assets/downloads_ed/global/web_dwl_technical_info/52005213_EN.pdf
