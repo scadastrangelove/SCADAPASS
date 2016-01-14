@@ -41,6 +41,7 @@ Emerson,Avocent ACS 6000 Advanced Console Server,"admin:avocent, root:linux",,Co
 Emerson,ROCLINK 800,LOI:1000,,Software,Console,http://www.documentation.emersonprocess.com/groups/public/documents/instruction_manuals/d301159x012.pdf
 Emerson,ControlWave Micro Quick,"for download project:, SYSTEM:666666",,PLC,,http://www.documentation.emersonprocess.com/groups/public/documents/users_guide/d301425x012.pdf
 Emerson,IP-KVM Avocent MergePoint Unity,"Admin:blank",,Switch,"local, http",http://community.emerson.com/networkpower/support/avocent/kvmip/mpunity/w/wiki-mergepoint-unity/363.default-user-name-and-password-for-the-mergepoint-unity-kvm-over-ip-appliance
+Emerson,Ovation DCS,wdpf,,Distributed Control System,,https://supportforums.cisco.com/sites/default/files/legacy/0/3/9/11930-cs2.txt
 ENTES,"EMG-10, EMG-02 , EMG-12","emg12 (for EMG12), emg10 (for EMG10), emg02 (for EMG02)",80/tcp,MODBUS Gateway,http,http://www.entes.com.tr/dosyalar/EMG_Series_EN-ver_2_2.pdf
 eWON,all,adm:adm,80/tcp,Router,http,http://ewon.biz/sites/default/files/aug-004-0-en-ewon_getting_started.pdf
 Helmholz Systeme,NETLink PRO HW 1-1a-1 and FW 1. 54 and higher,"NETLink PRO PoE:admin",,Ethernet Gateway for MPI/PROFIBUS,http,https://www.helmholz.com/dnl/NETLink_PRO_PoE_QSG_v2_en.pdf
