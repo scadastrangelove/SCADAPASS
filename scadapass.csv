@@ -43,7 +43,7 @@ Emerson ,ControlWave® Micro Quick,"for download project:, SYSTEM:666666",,PLC,,
 Emerson ,IP-KVM Avocent MergePoint Unity,Admin:blank,,Switch,,http://community.emerson.com/networkpower/support/avocent/kvmip/mpunity/w/wiki-mergepoint-unity/363.default-user-name-and-password-for-the-mergepoint-unity-kvm-over-ip-appliance
 ENTES,"EMG-10, EMG-02 , EMG-12","emg12 (for EMG12), emg10 (for EMG10), emg02 (for EMG02)",80/tcp,MODBUS Gateway,http,http://www.entes.com.tr/dosyalar/EMG_Series_EN-ver_2_2.pdf
 eWON,all,adm:adm,80/tcp,Router,http,http://ewon.biz/sites/default/files/aug-004-0-en-ewon_getting_started.pdf
-Helmholz Systeme,NETLink PRO HW 1-1a-1 and FW 1. 54 and higher,admin,,Ethernet Gateway for MPI/PROFIBUS,,Helmholtz Systeme.pdf
+Helmholz Systeme,NETLink PRO HW 1-1a-1 and FW 1. 54 and higher,admin,,Ethernet Gateway for MPI/PROFIBUS,http,https://www.helmholz.com/dnl/NETLink_PRO_PoE_QSG_v2_en.pdf
 Hirschmann,"RS20/RS30, MICE","admin:private, user:public",80/tcp,Switch,http,"http://www.wwsinternational.com.au/Hirschmann/pdf/quickstart.pdf;, Hirschmann MICE.pdf"
 Hirschmann,RSP 20/25/30/35,"user:public, admin:private",23/tcp (telnet),Industrial router,telnet,Hirschmann RSP20_25_30_35.pdf
 Hirschmann,MACH 4000 Family/MACH 1000 Family/MACH 100 Family/MACH 4002 Family/MACH104 Family Full Gigabit/MACH 1040 Family Full Gigabit,"user:public, admin:private",,Industrial router,,"Hirschmann MACH1040 Full Gigabit.pdf, Hirschmann MACH4002 Family.pdf, Hirschmann MACH1000 Family.pdf, Hirschmann MACH4000 Family.pdf, http://www.industrialcomms.co.uk/images/pdf/IG_MACH104_02_1210_en.pdf, http://www.industrialcomms.co.uk/images/pdf/IG_MACH100_03_0709_en.pdf"
@@ -111,3 +111,4 @@ Yokogawa,DX1000/DX1000N/DX2000 Advanced,"Administrator 1:Admin1, Administrator 2
 Yokogawa,CENTUM CS 3000 DCS,CENTUM:CENTUM,,Distributed Control System,,http://www.allinterview.com/showanswers/170266/having-yokogawa-centum-cs-3000-dcs-2-fcs-4-operation-download-message-appears-eq.html
 Yokogawa,EJX910A Multivariable Transmitter HART Communication Type,"YOKOGAWA. (to release the Write Protect mode), ",,Multivariable transmitter,,http://www.controlswarehouse.com/sheets/meriam/EJX910HARTIM01C25R02-01E_001.pdf
 Yokogawa,WT 3000 Driver ,anonymous:blank (Ethernet access),,Precision Power Analyzer,,Yokagawa WT3000.doc
+,
