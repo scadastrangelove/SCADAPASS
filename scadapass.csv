@@ -34,7 +34,7 @@ Emerson,DeltaV™ Digital Automation System,Administrator:deltav,,Automation Sys
 Emerson,Liebert IntelliSlot Web Card,"Liebert:Liebert, User:User",23/tcp,Web Card ,telnet,http://www.emersonnetworkpower.com/documentation/en-us/products/monitoring/documents/sl-52615.pdf
 Emerson,Smart Wireless Gateway 1420,"admin:default, maint:default, oper:default, exec:default",80/tcp,Wireless Gateway,http,http://www2.emersonprocess.com/siteadmincenter/PM%20Rosemount%20Documents/00809-0200-4420.pdf
 Emerson,Network Power MPH2 Rack PDU,admin:admin,80/tcp,Rack PDUs,http,https://community.emerson.com/networkpower/support/avocent/power/mph2/m/mediagallery/3093
-Emerson,UL33 UPS,123456,,UPS,,Serial,http://www.emersonnetworkpower-partner.com/ArticleDocuments/4091/UL33%20User%20Manual%20Communication.doc.aspx
+Emerson,UL33 UPS,123456,,UPS,Serial,http://www.emersonnetworkpower-partner.com/ArticleDocuments/4091/UL33%20User%20Manual%20Communication.doc.aspx
 Emerson,Control Link Refrigeration System Controller,0000,,Controller,http://foodservice.structuralconcepts.com/media/com_sccmanager/temp-controller-info/emerson-control-link-cpc-controller.pdf
 Emerson,UltraSite,"User 01:100, User 05:200, User 09:300, Engineer:400",,Software,,http://www.emersonclimate.com/Documents/Retail%20Solutions/Manuals/0261004Rev1.pdf
 Emerson,Avocent ACS 6000 Advanced Console Server,"admin:avocent, root:linux",,Console Server,"console port, with Telnet, SSH",http://pcs.mktg.avocent.com/@@content/manual/590767501h.pdf
