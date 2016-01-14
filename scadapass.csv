@@ -54,9 +54,9 @@ Moxa,"Railway Remote I/O(ioLogik E12xx ,  ioLogik E15xx )","HTTP on Port 9020: 
 Moxa,"Cellular Micro RTU Controller (ioLogik W53xx, ioLogik)","administrator:blank, Telnet on port 9900 / 9000:, root:root",9900/9000/tcp,micro RTU controller,telnet or serial console,http://www.toolswatch.org/2013/02/new-scada-default-passwords-added-to-dpe-xml-database/
 Moxa,VPort 461 Industrial Video Encoder ,"admin:admin, <none>:<none>",,Industrial Video Encoder ,telnet,http://www.moxa.com/doc/man/VPort_461_UM_2e.pdf
 Moxa, IA240/241 Embedded computer,"telnet root:root, FTP  root:blank, PPP root:blank, serial console root:root",,"Embedded computers are designed for industrial, automation applications","Telnet, FTP, PPP, serial console",http://www.toolswatch.org/2013/02/new-scada-default-passwords-added-to-dpe-xml-database/
-Moxa,"OnCell Central Manager, OnCell G3100 Series",admin:admin,8080/tcp,Software,http,"http://www.moxa.ru/files/manuals_modems/oncell_central_manager_users_manual_v1.pdf, http://www.moxa.com/doc/man/OnCell_G3100_Series_Users_Manual_v7.pdf"
+Moxa,OnCell Central Manager,admin:admin,8080/tcp,Software,http,http://www.moxa.ru/files/manuals_modems/oncell_central_manager_users_manual_v1.pdf
 Moxa,EDS-508A/505A Series,admin:<none>,,Switch,telnet or serial console,http://www.moxa.com/doc/man/eds-508a_505a_um_4e.pdf
-Moxa,OnCell G3100,Admin:Keep <blank>,23/tcp,cellular IP gateways,telnet,http://www.moxa.com/doc/man/OnCell_G3100_Series_Users_Manual_v7.pdf
+Moxa,OnCell G3100 Series,"HTTP admin:admin, HTTP Admin:Keep <blank>, PAP admin:<blank>",80/tcp,cellular IP gateways,"Telnet, PAP",http://www.moxa.com/doc/man/OnCell_G3100_Series_Users_Manual_v7.pdf
 Netcomm Wireless,"3G21WB (BigPond Firmware), 3G9WB (BigPond Firmware), N3G001W (Netcomm Firmware), NB14WN (Netcomm Firmware), NB5 (Netcomm Firmware), NB5Plus4 (Netcomm Firmware), NB6Plus4 (Netcomm Firmware), NB6Plus4W (Netcomm Firmware), NNB7 (Netcomm Firmware), NB9WMAXX (Netcomm Firmware), NP804N (Netcomm Firmware)",admin:admin,,Router,,http://www.pcwintech.com/default-router-modem-passwords2
 Netcomm Wireless,"NB1300 Plus 4 (Netcomm Firmware), NP803N (Netcomm Firmware)",admin:password,,Router,,http://www.pcwintech.com/default-router-modem-passwords2
 NOVUS AUTOMATION,Superview,superview:superview ,,SCADA,,http://www.scigiene.com/pdfs/Superview%20Manual.pdf
