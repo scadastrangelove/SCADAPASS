@@ -18,11 +18,11 @@ Beck IPC, IPC@CHIP,"PPPSERVER:, ppps:ppps",,PLC,pap/chap,https://www.beck-ipc.c
 BinTec Elmeg,BinTec X1200 II,"admin:bintec, ",,Router,,http://www.router-defaults.com/Router/BinTec--x1200-ip-password-username
 BinTec Elmeg,any routers,"(##unknown - means not known or any char):, ##unknown:snmp-Trap , suggested:, admin:1234, admin:password, admin:admin",,Router,,http://www.router-defaults.com/Router/BinTec--x1200-ip-password-username
 BinTec Elmeg,BinTec R230aw,admin:funkwerk,,Router,,http://www.tomshw.it/forum/banda-larga/154194-router-bintec.html
-BinTec Elmeg,Bintec W2002T-n","admin:funkwerk, admin:admin",,WLAN Access Point for applications in rolling stocks,,http://www.bintec-elmeg.com/download.php?src=portal/downloadcenter/dateien/w2002tn/documentation/Notes-default-password-standard-passwort.pdf&system_id=138324
+BinTec Elmeg,"bintec W2002T-n, ","admin:funkwerk, admin:admin",,WLAN Access Point for applications in rolling stocks,,http://www.bintec-elmeg.com/download.php?src=portal/downloadcenter/dateien/w2002tn/documentation/Notes-default-password-standard-passwort.pdf&system_id=138324
 Contemporary Control Systems,BASRT-B,admin:admin,80/tcp,Router,http,http://www.ccontrols.com/pdf/TD0712000I2.pdf
 Datasensor,UR5i/UR5i SL,root:root,80/tcp,Router,http,http://datasensor.de/sites/datasensor.de/files/datasheets/UR5i_m_e.pdf
 Digi,DC-ME-01T-S,root:dbps,,Networking Modules,http,http://www.digi.com/support/forum/13553/digi-connect-me-default-password
-Digi,"Digi Connect SP,Digi Connect Wi-SP,Digi Connect ME,Digi Connect ME 4 MB,Digi Connect Wi-ME,Digi Connect EM,Digi Connect Wi-EM",root:dbps,80/tcp,Network Device Server Module,http,http://ftp1.digi.com/support/documentation/90000565_P1.pdf
+Digi,"Digi Connect SP, Digi Connect Wi-SP,  Digi Connect ME,  Digi Connect ME 4 MB, Digi Connect Wi-ME, Digi Connect EM,  Digi Connect Wi-EM",root:dbps,80/tcp,Network Device Server Module,http,http://ftp1.digi.com/support/documentation/90000565_P1.pdf
 Digi,"Digi Connect ES 4/8 SB with Switch, Digi Connect ES 4/8 SB",root:dbps,80/tcp,Concentrator,http,http://ftp1.digi.com/support/documentation/90000565_P1.pdf
 Digi,"ConnectPort TS 4x4, ConnectPort TS 4x2, ConnectPort TS W, ConnectPort TS 8, ConnectPort TS 8 MEI, ConnectPort TS 16",root:dbps,80/tcp,Terminal Server,http,http://ftp1.digi.com/support/documentation/90000565_P1.pdf
 Digi,"Digi Connect WAN, Digi Connect WAN GPRS, Digi Connect WAN GSM-R, Digi Connect WAN VPN, Digi Connect WAN IA, Digi Connect WAN 3G, Digi Connect WAN 3G IA, Digi Connect WAN 4G",root:dbps,80/tcp,Industrial router,http,http://www.acspl.com.au/Manuals/digi_Wan.pdf
@@ -30,23 +30,23 @@ Digi,Digi TransPort WR21/WR44,username:password,80/tcp,Industrial router,http,ht
 Digi,Digi CM,root:dbps,"console port (9600, 8, N, 1)",Industrial router,,http://ftp1.digi.com/support/documentation/90000300_E.pdf
 Digi,DigiOne IAP Serial,root:dbps,80/tcp,Gateway,http,http://web-material3.yokogawa.com/IMMW100EIP.pdf
 Echelon,i.LON® SmartServer,"for ftp and lns servers:, ilon:ilon",,router,"ftp, L2TP",http://www.unicom-bg.com/pdf/systemintegration/iLONproducts/i.LON_SmartServer_Freely_Programmable_Modules_User_Guide.pdf
-Emerson,DeltaV™ Digital Automation System,Administrator:deltav,,Automation System,,http://www.chem.mtu.edu/chem_eng/current/new_courses/CM4120/2009/Getting%20Started.pdf
-Emerson,Liebert IntelliSlot Web Card,"Liebert:Liebert, User:User",23/tcp,Web Card ,telnet,http://www.emersonnetworkpower.com/documentation/en-us/products/monitoring/documents/sl-52615.pdf
-Emerson,Smart Wireless Gateway 1420,"admin:default, maint:default, oper:default, exec:default",80/tcp,Wireless Gateway,http,http://www2.emersonprocess.com/siteadmincenter/PM%20Rosemount%20Documents/00809-0200-4420.pdf
-Emerson,Network Power MPH2 Rack PDU,admin:admin,80/tcp,Rack PDUs,http,https://community.emerson.com/networkpower/support/avocent/power/mph2/m/mediagallery/3093
-Emerson,UL33 UPS,123456,,UPS,,Serial,http://www.emersonnetworkpower-partner.com/ArticleDocuments/4091/UL33%20User%20Manual%20Communication.doc.aspx
-Emerson,Control Link Refrigeration System Controller,0000,,Controller,http://foodservice.structuralconcepts.com/media/com_sccmanager/temp-controller-info/emerson-control-link-cpc-controller.pdf
-Emerson,UltraSite,"User 01:100, User 05:200, User 09:300, Engineer:400",,Software,,http://www.emersonclimate.com/Documents/Retail%20Solutions/Manuals/0261004Rev1.pdf
-Emerson,Avocent ACS 6000 Advanced Console Server,"admin:avocent, root:linux",,Console Server,"console port, with Telnet, SSH",http://pcs.mktg.avocent.com/@@content/manual/590767501h.pdf
-Emerson,ROCLINK 800,LOI:1000,,Software,,Console,http://www.documentation.emersonprocess.com/groups/public/documents/instruction_manuals/d301159x012.pdf
-Emerson,ControlWave Micro Quick,"for download project:, SYSTEM:666666",,PLC,,http://www.documentation.emersonprocess.com/groups/public/documents/users_guide/d301425x012.pdf
-Emerson,IP-KVM Avocent MergePoint Unity,"Admin:blank",,Switch,,"local, http",http://community.emerson.com/networkpower/support/avocent/kvmip/mpunity/w/wiki-mergepoint-unity/363.default-user-name-and-password-for-the-mergepoint-unity-kvm-over-ip-appliance
+Emerson ,DeltaV™ Digital Automation System,Administrator:deltav,,Automation System,,http://www.chem.mtu.edu/chem_eng/current/new_courses/CM4120/2009/Getting%20Started.pdf
+Emerson ,Liebert IntelliSlot Web Card ,"Liebert:Liebert, User:User",23/tcp,Web Card ,telnet,http://www.emersonnetworkpower.com/documentation/en-us/products/monitoring/documents/sl-52615.pdf
+Emerson ,Smart Wireless Gateway 1420,"admin:default, maint:default, oper:default, exec:default",80/tcp,Wireless Gateway,http,http://www2.emersonprocess.com/siteadmincenter/PM%20Rosemount%20Documents/00809-0200-4420.pdf
+Emerson ,Network Power® MPH2™ Rack PDU,admin:admin,80/tcp,Rack PDUs,http,https://community.emerson.com/networkpower/support/avocent/power/mph2/m/mediagallery/3093
+Emerson ,UL33 UPS ,123456,,UPS ,,Emerson UL33 UPS.doc
+Emerson ,Control Link Refrigeration System Controller ,0,,Controller ,,http://foodservice.structuralconcepts.com/media/com_sccmanager/temp-controller-info/emerson-control-link-cpc-controller.pdf
+Emerson ,UltraSite,"User 01:100, User 05:200, User 09:300, Engineer:400",,Software,,http://www.emersonclimate.com/Documents/Retail%20Solutions/Manuals/0261004Rev1.pdf
+Emerson ,Avocent® ACS 6000 Advanced Console Server,"admin: avocent, root:linux",,Console Server,"console port, with Telnet, SSH",Emerson Avocent ACS 6000.pdf
+Emerson ,ROCLINK™ 800,LOI:1000,,Software,,http://www.documentation.emersonprocess.com/groups/public/documents/instruction_manuals/d301159x012.pdf
+Emerson ,ControlWave® Micro Quick,"for download project:, SYSTEM:666666",,PLC,,http://www.documentation.emersonprocess.com/groups/public/documents/users_guide/d301425x012.pdf
+Emerson ,IP-KVM Avocent MergePoint Unity,Admin:blank,,Switch,,http://community.emerson.com/networkpower/support/avocent/kvmip/mpunity/w/wiki-mergepoint-unity/363.default-user-name-and-password-for-the-mergepoint-unity-kvm-over-ip-appliance
 ENTES,"EMG-10, EMG-02 , EMG-12","emg12 (for EMG12), emg10 (for EMG10), emg02 (for EMG02)",80/tcp,MODBUS Gateway,http,http://www.entes.com.tr/dosyalar/EMG_Series_EN-ver_2_2.pdf
 eWON,all,adm:adm,80/tcp,Router,http,http://ewon.biz/sites/default/files/aug-004-0-en-ewon_getting_started.pdf
-Helmholz Systeme,NETLink PRO HW 1-1a-1 and FW 1. 54 and higher,"NETLink PRO PoE:admin",,Ethernet Gateway for MPI/PROFIBUS,,http,https://www.helmholz.com/dnl/NETLink_PRO_PoE_QSG_v2_en.pdf
-Hirschmann,"RS20/RS30, MICE","user:public, admin:private",80/tcp,Switch,http,"http://www.wwsinternational.com.au/Hirschmann/pdf/quickstart.pdf;, Hirschmann MICE.pdf"
-Hirschmann,RSP 20/25/30/35,"user:public, admin:private",23/tcp (telnet),Industrial router,telnet,http://www.prosoft.ru/cms/f/456864.pdf
-Hirschmann,MACH 4000 Family/MACH 1000 Family/MACH 100 Family/MACH 4002 Family/MACH104 Family Full Gigabit/MACH 1040 Family Full Gigabit,"user:public, admin:private",,Industrial router,,"ftp://ftp.hirschmann-usa.com/INET-IndustrialNetworking/Manuals/MACH1020-1030-1040/IG_MACH1040_01_1009_en.pdf, Hirschmann MACH4002 Family.pdf, http://www.industrialcomms.co.uk/images/pdf/IG_MACH1000_02_1010_en.pdf, http://e-catalog.hirschmann.com/download/managed/pim/fddfc248-81d5-4d15-87d9-3997c2c82b8a/IG_MACH4000_14_0613_en.pdf?type=attachment, http://www.industrialcomms.co.uk/images/pdf/IG_MACH104_02_1210_en.pdf, http://www.industrialcomms.co.uk/images/pdf/IG_MACH100_03_0709_en.pdf"
+Helmholz Systeme,NETLink PRO HW 1-1a-1 and FW 1. 54 and higher,admin,,Ethernet Gateway for MPI/PROFIBUS,,Helmholtz Systeme.pdf
+Hirschmann,"RS20/RS30, MICE","admin:private, user:public",80/tcp,Switch,http,"http://www.wwsinternational.com.au/Hirschmann/pdf/quickstart.pdf;, Hirschmann MICE.pdf"
+Hirschmann,RSP 20/25/30/35,"user:public, admin:private",23/tcp (telnet),Industrial router,telnet,Hirschmann RSP20_25_30_35.pdf
+Hirschmann,MACH 4000 Family/MACH 1000 Family/MACH 100 Family/MACH 4002 Family/MACH104 Family Full Gigabit/MACH 1040 Family Full Gigabit,"user:public, admin:private",,Industrial router,,"Hirschmann MACH1040 Full Gigabit.pdf, Hirschmann MACH4002 Family.pdf, Hirschmann MACH1000 Family.pdf, Hirschmann MACH4000 Family.pdf, http://www.industrialcomms.co.uk/images/pdf/IG_MACH104_02_1210_en.pdf, http://www.industrialcomms.co.uk/images/pdf/IG_MACH100_03_0709_en.pdf"
 Hirschmann,"OCTOPUS 8M..., OCTOPUS 16M..., OCTOPUS 24M…","user:public, admin:private",23/tcp,Industrial router,telnet,https://www.neteon.net/media/downloads/IG_Octopus8M16M24M_PoETrain_02_0708_en_1.pdf
 IBM,2210,def:trade,, Multiprotocol Router,,http://www.governmentsecurity.org/_/articles/default-logins-and-passwords-for-networked-devices.html
 Moxa,AWK-5232-RCC Series  ,admin:root,80/tcp,Industrial 802.11n wireless AP/bridge/client,http,http://www.moxa.com/doc/man/AWK-3131-RCC_UM_1e.pdf
