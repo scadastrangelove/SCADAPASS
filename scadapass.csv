@@ -30,17 +30,17 @@ Digi,Digi TransPort WR21/WR44,username:password,80/tcp,Industrial router,http,ht
 Digi,Digi CM,root:dbps,"console port (9600, 8, N, 1)",Industrial router,,http://ftp1.digi.com/support/documentation/90000300_E.pdf
 Digi,DigiOne IAP Serial,root:dbps,80/tcp,Gateway,http,http://web-material3.yokogawa.com/IMMW100EIP.pdf
 Echelon,i.LON® SmartServer,"for ftp and lns servers:, ilon:ilon",,router,"ftp, L2TP",http://www.unicom-bg.com/pdf/systemintegration/iLONproducts/i.LON_SmartServer_Freely_Programmable_Modules_User_Guide.pdf
-Emerson ,DeltaV™ Digital Automation System,Administrator:deltav,,Automation System,,http://www.chem.mtu.edu/chem_eng/current/new_courses/CM4120/2009/Getting%20Started.pdf
-Emerson ,Liebert IntelliSlot Web Card ,"Liebert:Liebert, User:User",23/tcp,Web Card ,telnet,http://www.emersonnetworkpower.com/documentation/en-us/products/monitoring/documents/sl-52615.pdf
-Emerson ,Smart Wireless Gateway 1420,admin:default,80/tcp,Wireless Gateway,http,http://www2.emersonprocess.com/siteadmincenter/PM%20Rosemount%20Documents/00809-0200-4420.pdf
-Emerson ,Network Power® MPH2™ Rack PDU,admin:admin,80/tcp,Rack PDUs,http,https://community.emerson.com/networkpower/support/avocent/power/mph2/m/mediagallery/3093
-Emerson ,UL33 UPS ,123456,,UPS ,,Emerson UL33 UPS.doc
-Emerson ,Control Link Refrigeration System Controller ,0,,Controller ,,http://foodservice.structuralconcepts.com/media/com_sccmanager/temp-controller-info/emerson-control-link-cpc-controller.pdf
-Emerson ,UltraSite,"User 01:100, User 05:200, User 09:300, Engineer:400",,Software,,http://www.emersonclimate.com/Documents/Retail%20Solutions/Manuals/0261004Rev1.pdf
-Emerson ,Avocent® ACS 6000 Advanced Console Server,"admin: avocent, root:linux",,Console Server,"console port, with Telnet, SSH",Emerson Avocent ACS 6000.pdf
-Emerson ,ROCLINK™ 800,LOI:1000,,Software,,http://www.documentation.emersonprocess.com/groups/public/documents/instruction_manuals/d301159x012.pdf
-Emerson ,ControlWave® Micro Quick,"for download project:, SYSTEM:666666",,PLC,,http://www.documentation.emersonprocess.com/groups/public/documents/users_guide/d301425x012.pdf
-Emerson ,IP-KVM Avocent MergePoint Unity,Admin:blank,,Switch,,http://community.emerson.com/networkpower/support/avocent/kvmip/mpunity/w/wiki-mergepoint-unity/363.default-user-name-and-password-for-the-mergepoint-unity-kvm-over-ip-appliance
+Emerson,DeltaV™ Digital Automation System,Administrator:deltav,,Automation System,,http://www.chem.mtu.edu/chem_eng/current/new_courses/CM4120/2009/Getting%20Started.pdf
+Emerson,Liebert IntelliSlot Web Card ,"Liebert:Liebert, User:User",23/tcp,Web Card ,telnet,http://www.emersonnetworkpower.com/documentation/en-us/products/monitoring/documents/sl-52615.pdf
+Emerson,Smart Wireless Gateway 1420,"admin:default, maint:default, oper:default, exec:default",80/tcp,Wireless Gateway,http,http://www2.emersonprocess.com/siteadmincenter/PM%20Rosemount%20Documents/00809-0200-4420.pdf
+Emerson,Network Power® MPH2™ Rack PDU,admin:admin,80/tcp,Rack PDUs,http,https://community.emerson.com/networkpower/support/avocent/power/mph2/m/mediagallery/3093
+Emerson,UL33 UPS ,123456,,UPS ,,Emerson UL33 UPS.doc
+Emerson,Control Link Refrigeration System Controller ,0,,Controller ,,http://foodservice.structuralconcepts.com/media/com_sccmanager/temp-controller-info/emerson-control-link-cpc-controller.pdf
+Emerson,UltraSite,"User 01:100, User 05:200, User 09:300, Engineer:400",,Software,,http://www.emersonclimate.com/Documents/Retail%20Solutions/Manuals/0261004Rev1.pdf
+Emerson,Avocent® ACS 6000 Advanced Console Server,"admin: avocent, root:linux",,Console Server,"console port, with Telnet, SSH",Emerson Avocent ACS 6000.pdf
+Emerson,ROCLINK™ 800,LOI:1000,,Software,,http://www.documentation.emersonprocess.com/groups/public/documents/instruction_manuals/d301159x012.pdf
+Emerson,ControlWave® Micro Quick,"for download project:, SYSTEM:666666",,PLC,,http://www.documentation.emersonprocess.com/groups/public/documents/users_guide/d301425x012.pdf
+Emerson,IP-KVM Avocent MergePoint Unity,Admin:blank,,Switch,,http://community.emerson.com/networkpower/support/avocent/kvmip/mpunity/w/wiki-mergepoint-unity/363.default-user-name-and-password-for-the-mergepoint-unity-kvm-over-ip-appliance
 ENTES,"EMG-10, EMG-02 , EMG-12","emg12 (for EMG12), emg10 (for EMG10), emg02 (for EMG02)",80/tcp,MODBUS Gateway,http,http://www.entes.com.tr/dosyalar/EMG_Series_EN-ver_2_2.pdf
 eWON,all,adm:adm,80/tcp,Router,http,http://ewon.biz/sites/default/files/aug-004-0-en-ewon_getting_started.pdf
 Helmholz Systeme,NETLink PRO HW 1-1a-1 and FW 1. 54 and higher,admin,,Ethernet Gateway for MPI/PROFIBUS,,Helmholtz Systeme.pdf
