@@ -93,7 +93,7 @@ Siemens,Siemens Climatix,"Level 6 End users: 1000 (Physical), Level 4 Service op
 Sierra Wireless,AirLink,sconsole:12345,"12345/tcp, 2332/tcp",3G/4G gateway,"telnet, ssh",official documentation
 Sierra Wireless,AirLink,"user:12345, viewer:12345",9191/tcp,3G/4G gateway,http,official documentation
 Stulz GmbH,Stulz WIB 8000,"Administrator, highest authorization:, ganymed, Medium authorization:, kallisto, Lowest authorization:, europa",,PLC,,https://dariusfreamon.wordpress.com/2013/09/07/stulz-wib-8000-air-conditioning-web-interface-board-multiple-vulnerabilities/
-TAC AB,"TAC Xenta 500/700/911/913, TAC Xenta511, TAC Xenta527",root:root,,PLC,,http://www.xref.be/dpdf/tac_xenta911_xenta511_manuel_uk.pdf
+TAC AB,"TAC Xenta 500/700/911/913, TAC Xenta511, TAC Xenta527, ",root:root,,PLC,,http://www.xref.be/dpdf/tac_xenta911_xenta511_manuel_uk.pdf
 Tecomat ,Tecomat Foxtrot ,"0:0 (role 0) , 1:1 (role 1), 2:2 (role 2), 3:3 (role 3), 4:4 (role 4), 5:5 (role 5), 6:6 (role 6), 7:7 (role 7), 8:8 (role 8), 9:9 (role 9) ",,PLC,,http://dsec.ru/ipm-research-center/notification-of-vulnerabilities/tecomat_plc_paroli_po_umolchaniyu/
 Tridium,NiagaraAX,tridium:niagara,,"Software for JACE-2, JACE-403 or JACE-545",,http://www.hvacc.net/pdf/tridium/docs_3.2.16/docJaceStartup/docJaceStartup.pdf
 Turck,BL20-E-GW-EN,password,80/tcp,PLC,http,http://pdb.turck.de/media/_in/Anlagen/D301173.pdf
