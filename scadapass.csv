@@ -93,15 +93,15 @@ Siemens,Siemens Climatix,"Level 6 End users: 1000 (Physical), Level 4 Service op
 Sierra Wireless,AirLink,sconsole:12345,"12345/tcp, 2332/tcp",3G/4G gateway,"telnet, ssh",official documentation
 Sierra Wireless,AirLink,"user:12345, viewer:12345",9191/tcp,3G/4G gateway,http,official documentation
 Stulz GmbH,Stulz WIB 8000,"Administrator, highest authorization:, ganymed, Medium authorization:, kallisto, Lowest authorization:, europa",,PLC,,https://dariusfreamon.wordpress.com/2013/09/07/stulz-wib-8000-air-conditioning-web-interface-board-multiple-vulnerabilities/
-TAC AB,"TAC Xenta 500/700/911/913, TAC Xenta511, TAC Xenta527, ",root:root,,PLC,,http://www.xref.be/dpdf/tac_xenta911_xenta511_manuel_uk.pdf
+TAC AB,"TAC Xenta 500/700/911/913, TAC Xenta 511, TAC Xenta 527, ",root:root,,PLC,,http://www.xref.be/dpdf/tac_xenta911_xenta511_manuel_uk.pdf
 Tecomat ,Tecomat Foxtrot ,"0:0 (role 0) , 1:1 (role 1), 2:2 (role 2), 3:3 (role 3), 4:4 (role 4), 5:5 (role 5), 6:6 (role 6), 7:7 (role 7), 8:8 (role 8), 9:9 (role 9) ",,PLC,,http://dsec.ru/ipm-research-center/notification-of-vulnerabilities/tecomat_plc_paroli_po_umolchaniyu/
 Tridium,NiagaraAX,tridium:niagara,,"Software for JACE-2, JACE-403 or JACE-545",,http://www.hvacc.net/pdf/tridium/docs_3.2.16/docJaceStartup/docJaceStartup.pdf
-Turck,BL20-E-GW-EN,password,80/tcp,PLC,http,http://pdb.turck.de/media/_in/Anlagen/D301173.pdf
+Turck,"BL20-E-GW-EN, BL67-E-GW-EN","HTTP: password, FTP: (unspecified hardcoded)","21/tcp, 80/tcp",PLC,http,"http://pdb.turck.de/media/_in/Anlagen/D301173.pdf,http://ics-cert.us-cert.gov/advisories/ICSA-13-136-01"
 Wago,WAGO-I/O-SYSTEM 750,"admin:wago, user:user, guest:guest",80/tcp,Controller ,http,http://www.wago.spb.ru/upload/information_system_28/3/2/8/item_328/information_items_property_340.pdf
 Wago,WAGO-I/O-IPC 758-870/000-xxx,"http, ftp:, user:user00 , administrator:, su:ko2003wa",80/tcp (http),Compact Industrial PC ,"http, ftp",http://www.wago.com/wagoweb/documentation/758/eng_manu/870/q07580870_00000000_2en.pdf
 Wago,Modular I/O-System Linux Fieldbus Coupler 750-860 ,"root:wago , admin:wago, user:user , guest:guest ",,PLC,,http://www.wago.com/wagoweb/documentation/750/eng_manu/coupler_controller/m07500860_00000000_0en.pdf
 Wellintech,KingSCADA 3.0,administrator:administrator (role KVAdministrator),,Software,,http://www.slideshare.net/DefconRussia/pavel-volobuev-alexander-minozhenko-alexander-polyakov-practical-demonstration-of-typical-attacks-and-0days-in-scada-and-plccontrollers
-Westermo,TDW 33,"no password, just return, Hardcoded password:, n3Y9kA6otYZu8 , (?? TD-36)",,Industrial Modem,,Westermo TDW 33.pdf
+Westermo,TDW 33,"no password, just return, Hardcoded password: n3Y9kA6otYZu8, (?? TD-36)",,Industrial Modem,,http://www.etitudela.com/entrenadorcomunicaciones/downloads/modemrtbtdw33manual.pdf
 Westermo,MRD-305-DIN/MRD-310/MRD-315/MRD-330/MRD-355/MRD-350/MRD-455,admin:westermo,80/tcp,Industrial router,http,"http://www.eternity-sales.com/westermo/files/westermo_ug_6623-2266_mrd-305-DIN_en.pdf, Westermo MRD 330.pdf"
 Westermo,"RedFox Series, Wolverine Series, Lynx Series, Falcon Series, Viper Series",admin:westermo,80/tcp,Industrial router,http,http://www.westermosales.com/pdfs/westermo_mg_6101-3201_weos.pdf
 Wonderware,Intouch,Administrator:Wonderware,,SCADA,,http://www.automation-talk.info/2011/01/default-intouch-login-username-password.html
@@ -109,4 +109,4 @@ Yokogawa,YFGW410 gateway,admin:!admin,,Wireless Management Station,,http://www.y
 Yokogawa,DX1000/DX1000N/DX2000 Advanced,"Administrator 1:Admin1, Administrator 2:Admin2, ..., Administrator 5:Admin5, User 1:User01, ..., User 90:User90",,Software,,http://web-material3.yokogawa.com/IM04L41B01-05EN_020.pdf
 Yokogawa,CENTUM CS 3000 DCS,CENTUM:CENTUM,,Distributed Control System,,http://www.allinterview.com/showanswers/170266/having-yokogawa-centum-cs-3000-dcs-2-fcs-4-operation-download-message-appears-eq.html
 Yokogawa,EJX910A Multivariable Transmitter HART Communication Type,"YOKOGAWA. (to release the Write Protect mode), ",,Multivariable transmitter,,http://www.controlswarehouse.com/sheets/meriam/EJX910HARTIM01C25R02-01E_001.pdf
-Yokogawa,WT 3000 Driver ,anonymous:blank (Ethernet access),,Precision Power Analyzer,,Yokagawa WT3000.doc
+Yokogawa,WT 3000 Driver,anonymous:blank (Ethernet access),,Precision Power Analyzer,,http://www.electro-meters.com/Assets/pdf2_files/Yokogawa/Power_meters/WT3000_pdfs/WT3000%20Communication.pdf
