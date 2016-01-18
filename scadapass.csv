@@ -105,6 +105,8 @@ Westermo,TDW 33,"no password, just return, Hardcoded password: n3Y9kA6otYZu8, (?
 Westermo,MRD-305-DIN/MRD-310/MRD-315/MRD-330/MRD-355/MRD-350/MRD-455,admin:westermo,80/tcp,Industrial router,http,"http://www.eternity-sales.com/westermo/files/westermo_ug_6623-2266_mrd-305-DIN_en.pdf, Westermo MRD 330.pdf"
 Westermo,"RedFox Series, Wolverine Series, Lynx Series, Falcon Series, Viper Series",admin:westermo,80/tcp,Industrial router,http,http://www.westermosales.com/pdfs/westermo_mg_6101-3201_weos.pdf
 Wonderware,Intouch,Administrator:Wonderware,,SCADA,,http://www.automation-talk.info/2011/01/default-intouch-login-username-password.html
+Wonderware,Historian,"SQL Server Login: aadbo:pwddbo, wwdbo:pwddbo, aaAdmin:pwAdmin, wwAdmin:wwAdmin, aaPower:pwPower, wwPower:wwPower, aaUser:pwUser, wwUser:wwUser",,SQL Server,SSMS,https://drive.google.com/folderview?id=0B8or_Z9VHNfCeFIwbEY5RUk5SDA&usp=sharing
+Wonderware,System Platform/Archestra,administrator:blank,,Integrated Development Environment,,
 Yokogawa,YFGW410 gateway,admin:!admin,,Wireless Management Station,,http://www.yokogawa.com/us/support/knowledgebase/i-cannot-login-to-the-yfgw410-gateway-what-is-the-default-username-and-password-of-a-yfgw410-isa100-gateway.htm
 Yokogawa,DX1000/DX1000N/DX2000 Advanced,"Administrator 1:Admin1, Administrator 2:Admin2, ..., Administrator 5:Admin5, User 1:User01, ..., User 90:User90",,Software,,http://web-material3.yokogawa.com/IM04L41B01-05EN_020.pdf
 Yokogawa,CENTUM CS 3000 DCS,CENTUM:CENTUM,,Distributed Control System,,http://www.allinterview.com/showanswers/170266/having-yokogawa-centum-cs-3000-dcs-2-fcs-4-operation-download-message-appears-eq.html
