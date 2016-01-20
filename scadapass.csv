@@ -1,7 +1,7 @@
 #SCADA StrangeLove Default/Hardcoded Passwords List,,,,,,
 #Find more at http://www.scada.sl,,,,,,
 #Please contact us at scadastrangelove@gmail.com and @scadasl,,,,,,
-#release 1.0 by Oxana Andreeva (oxana.andreeva@inbox.ru),,,,,,
+#release 1.1 by Oxana Andreeva (oxana.andreeva@inbox.ru),,,,,,
 ,,,,,,
 Vendor,Device,Default password,Port,Device type,Protocol,Source
 ABB,AC 800M,service:ABB800xA,,Controller ,,https://library.e.abb.com/public/f355a67551218ae7c1257dc0003298c5/3BDS021515-600_-_en_AC_800M_6.0_PROFINET_IO_Configuration.pdf
@@ -107,7 +107,7 @@ Westermo,MRD-305-DIN/MRD-310/MRD-315/MRD-330/MRD-355/MRD-350/MRD-455,admin:weste
 Westermo,"RedFox Series, Wolverine Series, Lynx Series, Falcon Series, Viper Series",admin:westermo,80/tcp,Industrial router,http,http://www.westermosales.com/pdfs/westermo_mg_6101-3201_weos.pdf
 Wonderware,Intouch,Administrator:Wonderware,,SCADA,,http://www.automation-talk.info/2011/01/default-intouch-login-username-password.html
 Wonderware,Historian,"SQL Server Login: aadbo:pwddbo, wwdbo:pwddbo, aaAdmin:pwAdmin, wwAdmin:wwAdmin, aaPower:pwPower, wwPower:wwPower, aaUser:pwUser, wwUser:wwUser",,SQL Server,SSMS,https://drive.google.com/folderview?id=0B8or_Z9VHNfCeFIwbEY5RUk5SDA&usp=sharing
-Wonderware,System Platform/Archestra,administrator:blank,,Integrated Development Environment,,
+Wonderware,System Platform/Archestra,administrator:blank,,Integrated Development Environment,,https://insource.mindtouch.us/Support_Tickets/Industrial_Application_Server/Installation%2F%2FConfiguration/028076_-_What_is_the_default_Administrator_username_and_password_for_the_Archestra_IDE
 Yokogawa,YFGW410 gateway,admin:!admin,,Wireless Management Station,,http://www.yokogawa.com/us/support/knowledgebase/i-cannot-login-to-the-yfgw410-gateway-what-is-the-default-username-and-password-of-a-yfgw410-isa100-gateway.htm
 Yokogawa,DX1000/DX1000N/DX2000 Advanced,"Administrator 1:Admin1, Administrator 2:Admin2, ..., Administrator 5:Admin5, User 1:User01, ..., User 90:User90",,Software,,http://web-material3.yokogawa.com/IM04L41B01-05EN_020.pdf
 Yokogawa,CENTUM CS 3000 DCS,CENTUM:CENTUM,,Distributed Control System,,http://www.allinterview.com/showanswers/170266/having-yokogawa-centum-cs-3000-dcs-2-fcs-4-operation-download-message-appears-eq.html
