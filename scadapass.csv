@@ -47,7 +47,7 @@ ENTES,"EMG-10, EMG-02 , EMG-12","emg12 (for EMG12), emg10 (for EMG10), emg02 (fo
 eWON,all,adm:adm,80/tcp,Router,http,http://ewon.biz/sites/default/files/aug-004-0-en-ewon_getting_started.pdf
 General Electric Intelligent Platforms,IC695PNC001,admin:system,23/tcp (telnet) or USB,PROFINET Controller,telnet,http://platforma.astor.com.pl/files/getfile/id/6314
 General Electric Intelligent Platforms,IC695ECM850,admin:system,23/tcp (telnet) or USB,IEC 61850 Client,telnet,"http://platforma.astor.com.pl/files/getfile/id/6314, as referenced by http://www.pdfsupply.com/pdfs/gfk-2849.pdf"
-General Electric Intelligent Platforms,"IC695ETM001, IC695CPE305, IC695CPE310, IC695CPE330, IC698ETM001, IC698CPE010, IC698CPE020, IC698CRE020, IC698CPE030, IC698CPE040, IC698CRE030, IC698CRE040"",system,18245/udp,Ethernet module/programmable controller,,http://platforma.astor.com.pl/files/getfile/id/7823
+General Electric Intelligent Platforms,"IC695ETM001, IC695CPE305, IC695CPE310, IC695CPE330, IC698ETM001, IC698CPE010, IC698CPE020, IC698CRE020, IC698CPE030, IC698CPE040, IC698CRE030, IC698CRE040",system,18245/udp,Ethernet module/programmable controller,,http://platforma.astor.com.pl/files/getfile/id/7823
 General Electric Intelligent Platforms,"IC698CPE030, IC698CPE040, IC698CRE030, IC698CRE040",user:system,21/tcp,Programmable controller with built-in web server,ftp,http://platforma.astor.com.pl/files/getfile/id/9043
 Helmholz Systeme,NETLink PRO HW 1-1a-1 and FW 1. 54 and higher,"NETLink PRO PoE:admin",,Ethernet Gateway for MPI/PROFIBUS,HTTP,https://www.helmholz.com/dnl/NETLink_PRO_PoE_QSG_v2_en.pdf
 Hirschmann,"RS20/RS30, MICE","user:public, admin:private",80/tcp,Switch,http,"http://www.wwsinternational.com.au/Hirschmann/pdf/quickstart.pdf;, Hirschmann MICE.pdf"
