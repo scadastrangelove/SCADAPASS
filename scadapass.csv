@@ -57,6 +57,7 @@ Hirschmann,"OCTOPUS 8M..., OCTOPUS 16M..., OCTOPUS 24M…","user:public, admin:p
 HollySys Automation Technologies,LK SERIES PLC,"FTP blank, Telnet blank","21/tcp, 23/tcp",PLC,"FTP, Telnet",http://plcscan.org/blog/2014/12/hollysys-lk-series-plc-system-default-password-vulnerability/
 IBM,2210,def:trade,, Multiprotocol Router,,http://www.governmentsecurity.org/_/articles/default-logins-and-passwords-for-networked-devices.html
 Mitsubishi,PLC QnUCPU QnUDVCPU,MELSEC:MELSEC,21/tcp,PLC,"FTP, HTTP",http://dl.mitsubishielectric.com/dl/fa/document/manual/plc/sh080811eng/sh080811engp.pdf
+Mitsubishi,PLC QnUCPU QnUDE(H)CPU,QNUDECPU:QNUDECPU,21/tcp,PLC,"FTP, HTTP",http://dl.mitsubishielectric.com/dl/fa/document/manual/plc/sh080811eng/sh080811engp.pdf
 Moxa,AirWorks AWK-3131-RCC,admin:root,80/tcp,Industrial 802.11n wireless AP/bridge/client,HTTP,http://www.moxa.com/doc/man/AWK-3131-RCC_UM_1e.pdf
 Moxa,"Railway Remote I/O (ioLogik E12xx, ioLogik E15xx)","HTTP on Port 9020: 1)none:root, 2)none:none",9020/tcp,Remote Ethernet I/O,HTTP,http://www.toolswatch.org/2013/02/new-scada-default-passwords-added-to-dpe-xml-database/
 Moxa,"Cellular Micro RTU Controller (ioLogik W53xx, ioLogik)","administrator:blank, Telnet on port 9900 / 9000: root:root",9900/9000/tcp,micro RTU controller,telnet or serial console,http://www.toolswatch.org/2013/02/new-scada-default-passwords-added-to-dpe-xml-database/
