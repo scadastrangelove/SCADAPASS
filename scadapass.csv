@@ -30,6 +30,8 @@ Digi,Digi TransPort WR21/WR44,username:password,80/tcp,Industrial router,http,ht
 Digi,Digi CM,root:dbps,"console port (9600, 8, N, 1)",Industrial router,,http://ftp1.digi.com/support/documentation/90000300_E.pdf
 Digi,DigiOne IAP Serial,root:dbps,80/tcp,Gateway,http,http://web-material3.yokogawa.com/IMMW100EIP.pdf
 Echelon,i.LON SmartServer,"for ftp and lns servers:, ilon:ilon",,router,"ftp, L2TP",http://www.unicom-bg.com/pdf/systemintegration/iLONproducts/i.LON_SmartServer_Freely_Programmable_Modules_User_Guide.pdf
+Electro Industries/GaugeTech,"Nexus 1500+, Nexus 1500",anonymous:anonymous,80/tcp,Power Quality Meter,HTTP,"http://www.electroind.com/products/Nexus_1500+/pdf/manuals/Nexus%201500+%20Power%20Quality%20Meter%20User%20Manual%20V.1.01_E154713.pdf, http://www.electroind.com/products/Nexus_1500/pdf/manuals/Nexus%201500%20Transient%20Recording%20Power%20Quality%20Revenue%20Meter%20User%20Manual%20V.1.12_E154701.pdf"
+Electro Industries/GaugeTech,Communicator EXT 3.0,eignet:inp100,80/tcp,Power Monitoring Software,HTTP,http://www.electroind.com/pdf/11_13_12_pdf/E107707_ComEXT_Manual.pdf
 Emerson,DeltaV Digital Automation System,Administrator:deltav,,Automation System,,http://www.chem.mtu.edu/chem_eng/current/new_courses/CM4120/2009/Getting%20Started.pdf
 Emerson,Liebert IntelliSlot Web Card,"Liebert:Liebert, User:User",23/tcp,Web Card ,telnet,http://www.emersonnetworkpower.com/documentation/en-us/products/monitoring/documents/sl-52615.pdf
 Emerson,Smart Wireless Gateway 1420,"admin:default, maint:default, oper:default, exec:default",80/tcp,Wireless Gateway,http,http://www2.emersonprocess.com/siteadmincenter/PM%20Rosemount%20Documents/00809-0200-4420.pdf
@@ -70,7 +72,7 @@ Netcomm Wireless,"3G21WB (BigPond Firmware), 3G9WB (BigPond Firmware), N3G001W (
 Netcomm Wireless,"NB1300 Plus 4 (Netcomm Firmware), NP803N (Netcomm Firmware)",admin:password,,Router,,http://www.pcwintech.com/default-router-modem-passwords2
 NOVUS AUTOMATION,SuperView,superview:superview,,SCADA,,http://www.novusautomation.com/downloads/Arquivos/v29x_a_manual_superview_english.pdf
 OMRON IA,CJ1M CPU Units with Ethernet Functions,"for http: ETHERNET, for ftp: CONFIDENTIAL","80/tcp (http), 21/tcp (ftp)",PLC,"http, ftp",http://omronkft.hu/nostree/pdfs/plc/cs1_cj1/w441-e1-03+cj-series-ethernetfunc+opermanual.pdf
-Ouman ,EH-net server,admin:admin,,HMI Software,,http://docplayer.fi/509891-Palvelin-eh-net-kayttoonotto-ja-yllapito-www-ouman-fi.html
+Ouman,EH-net server,admin:admin,,HMI Software,,http://docplayer.fi/509891-Palvelin-eh-net-kayttoonotto-ja-yllapito-www-ouman-fi.html
 Phoenix Contact,Logic+,admin:admin,80/tcp,Software,http,https://www.phoenixcontact.com/assets/downloads_ed/global/web_dwl_technical_info/52005213_EN.pdf
 Prosoft Technology,ICX30-HWC,admin:password,80/tcp,Industrial Cellular Gateway,HTTP,http://www.prosoft-technology.com/content/download/8772/168219/version/9/file/ICX30_HWC_User_Manual.pdf
 Rockwell Automation / Allen-Bradley,1756-EN2TSC,Administrator:admin,80/tcp,EtherNet/IP communication module,HTTP,http://literature.rockwellautomation.com/idc/groups/literature/documents/um/enet-um003_-en-p.pdf
