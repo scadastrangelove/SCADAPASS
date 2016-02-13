@@ -4,8 +4,12 @@
 #release 1.1 by Oxana Andreeva (oxana.andreeva@inbox.ru),,,,,,
 ,,,,,,
 Vendor,Device,Default password,Port,Device type,Protocol,Source
-ABB,AC 800M,service:ABB800xA,,Controller ,,https://library.e.abb.com/public/f355a67551218ae7c1257dc0003298c5/3BDS021515-600_-_en_AC_800M_6.0_PROFINET_IO_Configuration.pdf
+ABB,AC 800M,service:ABB800xA,,Controller,,https://library.e.abb.com/public/f355a67551218ae7c1257dc0003298c5/3BDS021515-600_-_en_AC_800M_6.0_PROFINET_IO_Configuration.pdf
 ABB,SREA-01,admin:admin,80/tcp,Ethernet Adapter Module,http,https://www.inverterdrive.com/file/ABB-SREA-01-Manual
+Adcon Telemetry,Telemetry Gateway A840 and Wireless Modem A440,root:840sw,terminal program,Base Station,,http://www.adcon.com/index.php?option=com_docman&task=doc_download&gid=41&Itemid=239&lang=de
+Adcon Telemetry,addVANTAGE Pro 6.1,root:root,8080/tcp,HMI,HTTP,http://adcon.com/index.php?option=com_docman&task=doc_download&gid=31&Itemid=239&lang=en
+Advantech,Advantech WebAccess browser-based HMI and SCADA software,admin:blank,80/tcp,browser-based HMI and SCADA software,HTTP,http://advantech.vo.llnwd.net/o35/www/webaccess/driver_manual/Advantech-WebAccess-Quick-Start-Guide.pdf
+Allied Telesis,"IE200 Series: AT-IE200-6GT, AT-IE200-6GP, AT-IE200-6FT, AT-IE200-6FP",manager:friend,terminal or terminal emulator program,Industrial Ethernet Switches,,http://www.alliedtelesis.com/userfiles/file/IE200_InstallGuide_RevC.pdf
 B&B ELECTRONICS,CR10 v2,root:root,80/tcp,Industrial router,http,http://tekniska.pl/downloadfile/1400014902-1208342584-pdf
 B&B ELECTRONICS,Conel 4.0.1,root:root,80/tcp,Industrial router,http,http://conel.ru/shared/files/201502/9_411.pdf
 B&B ELECTRONICS,SPECTRE Router,root:root,80/tcp,Router,http,b&b electronics SPECTRE Router.pdf
@@ -19,8 +23,10 @@ BinTec Elmeg,BinTec X1200 II,"admin:bintec, ",,Router,,http://www.router-default
 BinTec Elmeg,any routers,"(##unknown - means not known or any char):, ##unknown:snmp-Trap , suggested:, admin:1234, admin:password, admin:admin",,Router,,http://www.router-defaults.com/Router/BinTec--x1200-ip-password-username
 BinTec Elmeg,BinTec R230aw,admin:funkwerk,,Router,,http://www.tomshw.it/forum/banda-larga/154194-router-bintec.html
 BinTec Elmeg,"Bintec W2002T-n","admin:funkwerk, admin:admin",,WLAN Access Point for applications in rolling stocks,,http://www.bintec-elmeg.com/download.php?src=portal/downloadcenter/dateien/w2002tn/documentation/Notes-default-password-standard-passwort.pdf&system_id=138324
+Carlo Gavazzi,PowerSoft,"admin:admin, user:user",,modular software,,https://www.gavazzionline.com/pdf/PowerSoftIMENG.pdf
 Contemporary Control Systems,BASRT-B,admin:admin,80/tcp,Router,http,http://www.ccontrols.com/pdf/TD0712000I2.pdf
 Datasensor,UR5i/UR5i SL,root:root,80/tcp,Router,http,http://datasensor.de/sites/datasensor.de/files/datasheets/UR5i_m_e.pdf
+Deif,AWC 500,"root:deif7800 (administrator), default:1234 (user)",,Advanced Wind turbine Controller,,http://www.deifwindpower.com/Files/Files/Documentation/Products/AWC-500/4189340733_AWC_500_Getting_started.pdf
 Digi,DC-ME-01T-S,root:dbps,,Networking Modules,http,http://www.digi.com/support/forum/13553/digi-connect-me-default-password
 Digi,"Digi Connect SP,Digi Connect Wi-SP,Digi Connect ME,Digi Connect ME 4 MB,Digi Connect Wi-ME,Digi Connect EM,Digi Connect Wi-EM",root:dbps,80/tcp,Network Device Server Module,http,http://ftp1.digi.com/support/documentation/90000565_P1.pdf
 Digi,"Digi Connect ES 4/8 SB with Switch, Digi Connect ES 4/8 SB",root:dbps,80/tcp,Concentrator,http,http://ftp1.digi.com/support/documentation/90000565_P1.pdf
@@ -45,6 +51,7 @@ Emerson,ControlWave Micro Quick,"for download project:, SYSTEM:666666",,PLC,,htt
 Emerson,IP-KVM Avocent MergePoint Unity,Admin:blank,,Switch,"local, HTTP",http://community.emerson.com/networkpower/support/avocent/kvmip/mpunity/w/wiki-mergepoint-unity/363.default-user-name-and-password-for-the-mergepoint-unity-kvm-over-ip-appliance
 Emerson,Ovation DCS,wdpf,,Switch for Distributed Control System,Telnet,https://supportforums.cisco.com/sites/default/files/legacy/0/3/9/11930-cs2.txt
 Emerson,Ovation DCS,"SNMP community string: wdpfRO",,Switch for Distributed Control System,SNMP,https://supportforums.cisco.com/sites/default/files/legacy/0/3/9/11930-cs2.txt
+Endress+Hauser,Fieldgate FXA520,super:super,80/tcp,Gateway for remote monitoring and diagnosis,HTTP,https://portal.endress.com/wa001/dla/5000241/6638/000/03/BA00051SEN_1514.pdf
 ENTES,"EMG-10, EMG-02 , EMG-12","emg12 (for EMG12), emg10 (for EMG10), emg02 (for EMG02)",80/tcp,MODBUS Gateway,http,http://www.entes.com.tr/dosyalar/EMG_Series_EN-ver_2_2.pdf
 eWON,all,adm:adm,80/tcp,Router,http,http://ewon.biz/sites/default/files/aug-004-0-en-ewon_getting_started.pdf
 General Electric Intelligent Platforms,IC695PNC001,admin:system,23/tcp (telnet) or USB,PROFINET Controller,telnet,http://platforma.astor.com.pl/files/getfile/id/6314
@@ -58,6 +65,7 @@ Hirschmann,MACH 4000 Family/MACH 1000 Family/MACH 100 Family/MACH 4002 Family/MA
 Hirschmann,"OCTOPUS 8M..., OCTOPUS 16M..., OCTOPUS 24M…","user:public, admin:private",23/tcp,Industrial router,telnet,https://www.neteon.net/media/downloads/IG_Octopus8M16M24M_PoETrain_02_0708_en_1.pdf
 HollySys Automation Technologies,LK SERIES PLC,"FTP blank, Telnet blank","21/tcp, 23/tcp",PLC,"FTP, Telnet",http://plcscan.org/blog/2014/12/hollysys-lk-series-plc-system-default-password-vulnerability/
 IBM,2210,def:trade,, Multiprotocol Router,,http://www.governmentsecurity.org/_/articles/default-logins-and-passwords-for-networked-devices.html
+Kostal Solar,"PIKO-Inverter 3.0, 3.6, 4.2, 5.5, 7.0, 8.3, 10.1",pvserver:pvwr,80/tcp,solar inverter,HTTP,http://www.kostal-solar-electric.com/Standalone/MediaDispositionViewer.aspx?medid=7a7356e144fd48b0b8557c4249cb35fd
 Mitsubishi,PLC QnUCPU QnUDVCPU,MELSEC:MELSEC,21/tcp,PLC,"FTP, HTTP",http://dl.mitsubishielectric.com/dl/fa/document/manual/plc/sh080811eng/sh080811engp.pdf
 Mitsubishi,PLC QnUCPU QnUDE(H)CPU,QNUDECPU:QNUDECPU,21/tcp,PLC,"FTP, HTTP",http://dl.mitsubishielectric.com/dl/fa/document/manual/plc/sh080811eng/sh080811engp.pdf
 Moxa,AirWorks AWK-3131-RCC,admin:root,80/tcp,Industrial 802.11n wireless AP/bridge/client,HTTP,http://www.moxa.com/doc/man/AWK-3131-RCC_UM_1e.pdf
@@ -71,8 +79,10 @@ Moxa,OnCell G3100 Series,"HTTP admin:admin, HTTP Admin:Keep <blank>, PAP admin:<
 Netcomm Wireless,"3G21WB (BigPond Firmware), 3G9WB (BigPond Firmware), N3G001W (Netcomm Firmware), NB14WN (Netcomm Firmware), NB5 (Netcomm Firmware), NB5Plus4 (Netcomm Firmware), NB6Plus4 (Netcomm Firmware), NB6Plus4W (Netcomm Firmware), NNB7 (Netcomm Firmware), NB9WMAXX (Netcomm Firmware), NP804N (Netcomm Firmware)",admin:admin,,Router,,http://www.pcwintech.com/default-router-modem-passwords2
 Netcomm Wireless,"NB1300 Plus 4 (Netcomm Firmware), NP803N (Netcomm Firmware)",admin:password,,Router,,http://www.pcwintech.com/default-router-modem-passwords2
 NOVUS AUTOMATION,SuperView,superview:superview,,SCADA,,http://www.novusautomation.com/downloads/Arquivos/v29x_a_manual_superview_english.pdf
-OMRON IA,CJ1M CPU Units with Ethernet Functions,"for http: ETHERNET, for ftp: CONFIDENTIAL","80/tcp (http), 21/tcp (ftp)",PLC,"http, ftp",http://omronkft.hu/nostree/pdfs/plc/cs1_cj1/w441-e1-03+cj-series-ethernetfunc+opermanual.pdf
+Omron IA,CJ1M CPU Units with Ethernet Functions,"for http: ETHERNET, for ftp: CONFIDENTIAL","80/tcp (http), 21/tcp (ftp)",PLC,"http, ftp",http://omronkft.hu/nostree/pdfs/plc/cs1_cj1/w441-e1-03+cj-series-ethernetfunc+opermanual.pdf
+Omron,"NS-Series Programmable Terminals Web Interface (NS12-TS01-V2, NS10-TV01-V2, NS8-TV01-V2, NS5-SQ11-V2, NS5-TQ11-V2 and NS5-MQ11-V2)",default:default,80/tcp,,HTTP,Programmable Terminals,http://www.omronkft.hu/nostree/pdfs/ns/v100-e1-01.pdf
 Ouman,EH-net server,admin:admin,,HMI Software,,http://docplayer.fi/509891-Palvelin-eh-net-kayttoonotto-ja-yllapito-www-ouman-fi.html
+Phasefale Controls,JouleTemp,admin:pass,80/tcp,PLC,HTTP,http://phasefale.com.au/wp-content/themes/twentythirteen/docs/JouleRange/JouleTemp/jt_instruction_iss8.pdf
 Phoenix Contact,Logic+,admin:admin,80/tcp,Software,http,https://www.phoenixcontact.com/assets/downloads_ed/global/web_dwl_technical_info/52005213_EN.pdf
 Prosoft Technology,ICX30-HWC,admin:password,80/tcp,Industrial Cellular Gateway,HTTP,http://www.prosoft-technology.com/content/download/8772/168219/version/9/file/ICX30_HWC_User_Manual.pdf
 Rockwell Automation / Allen-Bradley,1756-EN2TSC,Administrator:admin,80/tcp,EtherNet/IP communication module,HTTP,http://literature.rockwellautomation.com/idc/groups/literature/documents/um/enet-um003_-en-p.pdf
