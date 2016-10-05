@@ -11,6 +11,7 @@ Adcon Telemetry,addVANTAGE Pro 6.1,root:root,8080/tcp,HMI,HTTP,http://adcon.com/
 Advantech,Advantech WebAccess browser-based HMI and SCADA software,admin:blank,80/tcp,browser-based HMI and SCADA software,HTTP,http://advantech.vo.llnwd.net/o35/www/webaccess/driver_manual/Advantech-WebAccess-Quick-Start-Guide.pdf
 Alcatel-Lucent,OmniSwitch 6250,admin:switch,"80/tcp, 23/tcp",switch,"HTTP, Telnet",https://dariusfreamon.wordpress.com/tag/defaults/
 Allied Telesis,"IE200 Series: AT-IE200-6GT, AT-IE200-6GP, AT-IE200-6FT, AT-IE200-6FP",manager:friend,terminal or terminal emulator program,Industrial Ethernet Switches,,http://www.alliedtelesis.com/userfiles/file/IE200_InstallGuide_RevC.pdf
+Astute Medical,ASTUTE140 Meter,1234:1234,,analyzer,,https://dariusfreamon.wordpress.com/2015/07/11/astute-medical-astute140-meter-default-user-credentials/
 B&B ELECTRONICS,CR10 v2,root:root,80/tcp,Industrial router,http,http://tekniska.pl/downloadfile/1400014902-1208342584-pdf
 B&B ELECTRONICS,Conel 4.0.1,root:root,80/tcp,Industrial router,http,http://conel.ru/shared/files/201502/9_411.pdf
 B&B ELECTRONICS,SPECTRE Router,root:root,80/tcp,Router,http,b&b electronics SPECTRE Router.pdf
@@ -21,12 +22,11 @@ B&B ELECTRONICS,UCR11-v2/UCR11 v2 SL,root:root,80/tcp,Industrial router,http,htt
 B&B ELECTRONICS,XR5i v2E/XR5i v2/XR5i/XR5i SL,root:root,80/tcp,Industrial router,http,http://www.cd.lucom.de/vpn-industrie-router/dokumentation/handbuch/xr5iv2e-guide.pdf
 Beckhoff Automation GmbH,CX5020,webguest:1,23/tcp,PLC,Telnet,https://www.researchgate.net/publication/272420507_ICSSCADA_Security_Analysis_of_a_Beckhoff_CX5020_PLC
 Beck IPC, IPC@CHIP,"PPPSERVER:, ppps:ppps",,PLC,pap/chap,https://www.beck-ipc.com/files/api/scxxx/config.htm
-BEC Technologies,"BEC 6200WZL, BEC 6300VNL, RidgeWave 6300NEL, BEC 6800RUL, BEC 6900, BEC 9800VN, BEC FGS-2024-4S, BEC VG2600, BEC 8920NE, 5200 Series (802.11g), BiPAC 5200W, BEC 8920AC Ultimum, BEC 8920NE",admin:admin,80/tcp,"Multiple Devices: routers, switches, gateways",HTTP,https://dariusfreamon.wordpress.com/2016/01/29/bec-technologies-multiple-devices-web-interface-default-admin-credentials/
-BEC Technologies,BiPAC 7800NL 802.11n,"Administrator admin:admin, Local user:user, Remote support:support",80/tcp,Firewall Router,HTTP,https://dariusfreamon.wordpress.com/2016/01/29/bec-technologies-multiple-devices-web-interface-default-admin-credentials/
 BinTec Elmeg,BinTec X1200 II,"admin:bintec, ",,Router,,http://www.router-defaults.com/Router/BinTec--x1200-ip-password-username
 BinTec Elmeg,any routers,"(##unknown - means not known or any char):, ##unknown:snmp-Trap , suggested:, admin:1234, admin:password, admin:admin",,Router,,http://www.router-defaults.com/Router/BinTec--x1200-ip-password-username
 BinTec Elmeg,BinTec R230aw,admin:funkwerk,,Router,,http://www.tomshw.it/forum/banda-larga/154194-router-bintec.html
 BinTec Elmeg,"Bintec W2002T-n","admin:funkwerk, admin:admin",,WLAN Access Point for applications in rolling stocks,,http://www.bintec-elmeg.com/download.php?src=portal/downloadcenter/dateien/w2002tn/documentation/Notes-default-password-standard-passwort.pdf&system_id=138324
+BK Ultrasound,bk3000,administrator:superuser,,Ultrasound System,,https://dariusfreamon.wordpress.com/2015/07/12/bk-medical-aps-bk3000-ultrasound-system-default-credentials/
 Carlo Gavazzi,PowerSoft,"admin:admin, user:user",,modular software,,https://www.gavazzionline.com/pdf/PowerSoftIMENG.pdf
 Contemporary Control Systems,BASRT-B,admin:admin,80/tcp,Router,http,http://www.ccontrols.com/pdf/TD0712000I2.pdf
 Datasensor,UR5i/UR5i SL,root:root,80/tcp,Router,http,http://datasensor.de/sites/datasensor.de/files/datasheets/UR5i_m_e.pdf
@@ -57,13 +57,15 @@ Emerson,Ovation DCS,wdpf,,Switch for Distributed Control System,Telnet,https://s
 Emerson,Ovation DCS,"SNMP community string: wdpfRO",,Switch for Distributed Control System,SNMP,https://supportforums.cisco.com/sites/default/files/legacy/0/3/9/11930-cs2.txt
 Endress+Hauser,Fieldgate FXA520,super:super,80/tcp,Gateway for remote monitoring and diagnosis,HTTP,https://portal.endress.com/wa001/dla/5000241/6638/000/03/BA00051SEN_1514.pdf
 ENTES,"EMG-10, EMG-02 , EMG-12","emg12 (for EMG12), emg10 (for EMG10), emg02 (for EMG02)",80/tcp,MODBUS Gateway,http,http://www.entes.com.tr/dosyalar/EMG_Series_EN-ver_2_2.pdf
-Envisacor Technologies,EnvisaLink 3,user:user,4025,Alarm System,HTTP,https://dariusfreamon.wordpress.com/2016/01/04/envisalink-3-alarm-system-multiple-vulnerabilities/
 eWON,all,adm:adm,80/tcp,Router,http,http://ewon.biz/sites/default/files/aug-004-0-en-ewon_getting_started.pdf
 Falcon,USHA,USHA:admin,80/tcp,UPS SNMP HTTP AGENT,HTTP,https://dariusfreamon.wordpress.com/2016/01/28/falcon-usha-ups-snmp-http-agent-default-admin-credentials/
 General Electric Intelligent Platforms,IC695PNC001,admin:system,23/tcp (telnet) or USB,PROFINET Controller,telnet,http://platforma.astor.com.pl/files/getfile/id/6314
 General Electric Intelligent Platforms,IC695ECM850,admin:system,23/tcp (telnet) or USB,IEC 61850 Client,telnet,"http://platforma.astor.com.pl/files/getfile/id/6314, as referenced by http://www.pdfsupply.com/pdfs/gfk-2849.pdf"
 General Electric Intelligent Platforms,"IC695ETM001, IC695CPE305, IC695CPE310, IC695CPE330, IC698ETM001, IC698CPE010, IC698CPE020, IC698CRE020, IC698CPE030, IC698CPE040, IC698CRE030, IC698CRE040",system,18245/udp,Ethernet module/programmable controller,,http://platforma.astor.com.pl/files/getfile/id/7823
 General Electric Intelligent Platforms,"IC698CPE030, IC698CPE040, IC698CRE030, IC698CRE040",user:system,21/tcp,Programmable controller with built-in web server,ftp,http://platforma.astor.com.pl/files/getfile/id/9043
+General Electric Healthcare,Admin:admin,,synthesizer,,https://dariusfreamon.wordpress.com/2015/07/12/ge-healthcare-fastlab-synthesizer-default-credentials/
+General Electric Healthcare,TRACERlab FX2 devices (model C, MeI and N),admin:tracerlab (physical access required),,Synthesis module,,https://dariusfreamon.wordpress.com/2015/07/12/ge-healthcare-tracerlab-fx2-default-admin-credentials/
+General Electric Healthcare,TRACERlab FX2 M,"tracerlab:tracerlab (for remote access), admin:tracerlab",,chemistry synthesizer,,https://dariusfreamon.wordpress.com/2015/07/12/ge-healthcare-tracerlab-fx2-m-multiple-default-credentials/
 Helmholz Systeme,NETLink PRO HW 1-1a-1 and FW 1. 54 and higher,"NETLink PRO PoE:admin",,Ethernet Gateway for MPI/PROFIBUS,HTTP,https://www.helmholz.com/dnl/NETLink_PRO_PoE_QSG_v2_en.pdf
 Hirschmann,"RS20/RS30, MICE","user:public, admin:private",80/tcp,Switch,http,"http://www.wwsinternational.com.au/Hirschmann/pdf/quickstart.pdf;, Hirschmann MICE.pdf"
 Hirschmann,RSP 20/25/30/35,"user:public, admin:private",23/tcp (telnet),Industrial router,telnet,http://www.prosoft.ru/cms/f/456864.pdf
@@ -72,10 +74,7 @@ Hirschmann,"OCTOPUS 8M..., OCTOPUS 16M..., OCTOPUS 24M…","user:public, admin:p
 HollySys Automation Technologies,LK SERIES PLC,"FTP blank, Telnet blank","21/tcp, 23/tcp",PLC,"FTP, Telnet",http://plcscan.org/blog/2014/12/hollysys-lk-series-plc-system-default-password-vulnerability/
 Honeywell,Honeywell XL,"Guest:guest, SysAdmin:honey",80/tcp,Controller,HTTP,
 IBM,2210,def:trade,, Multiprotocol Router,,http://www.governmentsecurity.org/_/articles/default-logins-and-passwords-for-networked-devices.html
-IQeye,"V9360, CE202D-N Series","Admin:123456 (V9360), ADMIN:1234 (CE202D-N Series)",80/tcp,Cameras,HTTP,https://dariusfreamon.wordpress.com/2016/01/06/iqeye-cameras-multiple-default-credentials/
-IQeye,"IQeye101, IQvav, IQeye3, IQeye301, IQeye302, IQeye303, IQeye501, IQeye510, IQeye511, IQeye601, IQeye602, IQeye603, IQeye701, IQeye702, IQeye703, IQeye705, IQeye711, IQeye751, IQeye752, IQeye753, IQeye755, IQeye811, IQeye802, IQeye803, IQeye805, IQeye852, IQeye853, and IQeye855","root:system (telnet), superuser:SYSTEM (telnet), login:access (FTP, HTTP, telnet, etc.)","21/tcp, 23/tcp, 80/tcp",Cameras,"FTP, HTTP, Telnet",https://dariusfreamon.wordpress.com/2016/01/06/iqeye-cameras-multiple-default-credentials/
 Kostal Solar,"PIKO-Inverter 3.0, 3.6, 4.2, 5.5, 7.0, 8.3, 10.1",pvserver:pvwr,80/tcp,solar inverter,HTTP,http://www.kostal-solar-electric.com/Standalone/MediaDispositionViewer.aspx?medid=7a7356e144fd48b0b8557c4249cb35fd
-KZ Broadband Technologies,iSurf 1004 / 1008,admin:admin,80/tcp,Integrated Access Devices,HTTP,https://dariusfreamon.wordpress.com/2016/01/26/kz-broadband-isurf-1004-1008-multiple-vulnerabilities/
 LOYTEC Electronics,"L-DALI DALI Light Controller, L-INX Automation Server, L-GATE Universal Gateway, L-IP CEA-709/IP Router, L-VIS, LIOB-10x I/O Module, LIOB-x5x I/O Module, LIP-ME20X L-IP BACnet Router, LWEB-802, LWEB-803, LWEB-900 Building Management System",admin:loytec4u,80/tcp,Multiple Devices,HTTP,https://dariusfreamon.wordpress.com/2016/02/01/loytec-electronics-multiple-devices-web-interface-default-admin-credentials/
 LOYTEC Electronics,L-Proxy CEA-709 Gateway,admin:admin,80/tcp,Gateway, HTTP,https://dariusfreamon.wordpress.com/2016/02/01/loytec-electronics-multiple-devices-web-interface-default-admin-credentials/
 Mitsubishi,PLC QnUCPU QnUDVCPU,MELSEC:MELSEC,21/tcp,PLC,"FTP, HTTP",http://dl.mitsubishielectric.com/dl/fa/document/manual/plc/sh080811eng/sh080811engp.pdf
@@ -132,12 +131,12 @@ Siemens,Siemens ST950,"root:zP2wxY4uE",161/udp,Intersection controller,SNMPv3,ht
 Siemens,Siemens Climatix,"Level 6 End users: 1000 (Physical), Level 4 Service operator: 2000 (Physical), Level 2 OEM: 6000 (Physical), Web: ADMIN:SBTAdmin!",80/tcp,PLC,HTTP,http://www.ivprodukt.se/documents/ivprodukt/documents/styr%20climatix/basis%20document%20climatix%20control%20system%20bdcx.100820.01.gb.pdf
 Siemens,Sicam SGU,642935177,80/tcp,RTU,HTTP,http://w3.siemens.com/smartgrid/global/en/products-systems-solutions/substation-automation/remote-terminal-units/Pages/sicam-sgu.aspx
 Siemens,Sicam SGU,"admin@root:charleM!800",9443/tcp,RTU,HTTPS,http://w3.siemens.com/smartgrid/global/en/products-systems-solutions/substation-automation/remote-terminal-units/Pages/sicam-sgu.aspx
+Siemens,SC 7000 / SC 9000XL,"4712 (passcode, physical access required)",,Patient Monitors Service,,https://dariusfreamon.wordpress.com/2015/07/12/siemens-sc-7000-sc-9000xl-patient-monitors-default-admin-passcode/
 Sierra Wireless,AirLink,sconsole:12345,"12345/tcp, 2332/tcp",3G/4G gateway,"telnet, ssh",official documentation
 Sierra Wireless,AirLink,"user:12345, viewer:12345",9191/tcp,3G/4G gateway,http,official documentation
 Stulz GmbH,Stulz WIB 8000,"Administrator, highest authorization:, ganymed, Medium authorization:, kallisto, Lowest authorization:, europa",,PLC,,https://dariusfreamon.wordpress.com/2013/09/07/stulz-wib-8000-air-conditioning-web-interface-board-multiple-vulnerabilities/
 TAC AB,"TAC Xenta 500/700/911/913, TAC Xenta 511, TAC Xenta 527, ",root:root,,PLC,,http://www.xref.be/dpdf/tac_xenta911_xenta511_manuel_uk.pdf
 Tecomat,Tecomat Foxtrot ,"0:0 (role 0) , 1:1 (role 1), 2:2 (role 2), 3:3 (role 3), 4:4 (role 4), 5:5 (role 5), 6:6 (role 6), 7:7 (role 7), 8:8 (role 8), 9:9 (role 9) ",,PLC,,http://dsec.ru/ipm-research-center/notification-of-vulnerabilities/tecomat_plc_paroli_po_umolchaniyu/
-TerraMaster,"WORM-Storage, F4-NAS, F2-NAS 2, F2-C2O",admin:admin,80/tcp,storage devices,HTTP,https://dariusfreamon.wordpress.com/2016/01/27/947/
 Tridium,NiagaraAX,tridium:niagara,,"Software for JACE-2, JACE-403 or JACE-545",,http://www.hvacc.net/pdf/tridium/docs_3.2.16/docJaceStartup/docJaceStartup.pdf
 Turck,"BL20-E-GW-EN, BL67-E-GW-EN","HTTP: password, FTP: (unspecified hardcoded)","21/tcp, 80/tcp",PLC,http,"http://pdb.turck.de/media/_in/Anlagen/D301173.pdf,http://ics-cert.us-cert.gov/advisories/ICSA-13-136-01"
 Wago,WAGO-I/O-SYSTEM 750,"admin:wago, user:user, guest:guest",80/tcp,Controller ,http,http://www.wago.spb.ru/upload/information_system_28/3/2/8/item_328/information_items_property_340.pdf
