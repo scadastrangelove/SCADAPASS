@@ -22,7 +22,7 @@ B&B ELECTRONICS,LR77 v2 Libratum/LR77 v2,root:root,80/tcp,Industrial router,http
 B&B ELECTRONICS,UR5i v2,root:root,80/tcp,Industrial router,http,http://www.cd.lucom.de/vpn-industrie-router/dokumentation/handbuch/ur5iv2-guide.pdf
 B&B ELECTRONICS,UCR11-v2/UCR11 v2 SL,root:root,80/tcp,Industrial router,http,http://www.induowireless.com/wp-content/uploads/2014/03/ucr11-3g-router-hspa-cdma.pdf
 B&B ELECTRONICS,XR5i v2E/XR5i v2/XR5i/XR5i SL,root:root,80/tcp,Industrial router,http,http://www.cd.lucom.de/vpn-industrie-router/dokumentation/handbuch/xr5iv2e-guide.pdf
-Barco,MediCal QAWeb Agent,Advanced:advanced,,client application,https://dariusfreamon.wordpress.com/2015/07/10/barco-medical-qaweb-agent-default-password/
+Barco,MediCal QAWeb Agent,Advanced:advanced,,client application,,https://dariusfreamon.wordpress.com/2015/07/10/barco-medical-qaweb-agent-default-password/
 Beckhoff Automation GmbH,CX5020,webguest:1,23/tcp,PLC,Telnet,https://www.researchgate.net/publication/272420507_ICSSCADA_Security_Analysis_of_a_Beckhoff_CX5020_PLC
 Beck IPC, IPC@CHIP,"PPPSERVER:, ppps:ppps",,PLC,pap/chap,https://www.beck-ipc.com/files/api/scxxx/config.htm
 BinTec Elmeg,BinTec X1200 II,"admin:bintec, ",,Router,,http://www.router-defaults.com/Router/BinTec--x1200-ip-password-username
