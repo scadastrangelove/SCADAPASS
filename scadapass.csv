@@ -31,6 +31,7 @@ BinTec Elmeg,BinTec R230aw,admin:funkwerk,,Router,,http://www.tomshw.it/forum/ba
 BinTec Elmeg,"Bintec W2002T-n","admin:funkwerk, admin:admin",,WLAN Access Point for applications in rolling stocks,,http://www.bintec-elmeg.com/download.php?src=portal/downloadcenter/dateien/w2002tn/documentation/Notes-default-password-standard-passwort.pdf&system_id=138324
 BK Ultrasound,bk3000,administrator:superuser,,Ultrasound System,,https://dariusfreamon.wordpress.com/2015/07/12/bk-medical-aps-bk3000-ultrasound-system-default-credentials/
 Carlo Gavazzi,PowerSoft,"admin:admin, user:user",,modular software,,https://www.gavazzionline.com/pdf/PowerSoftIMENG.pdf
+CAREL,pCOWeb,"root:froot, carel:fcarel, guest:fguest, httpadmin:fhttpadmin (ftp), admin:fadmin (http), passwordless accounts via telnet: http::48:48:HTTP users:/usr/http/root:/bin/bash, nobody::99:99:nobody:/var/lib/nobody:/bin/bash","21/tcp, 80/tcp",communication card,"FTP, HTTP","http://www.carel.com/documents/10191/0/%2B030220471/9619472f-f1c0-4ec9-a151-120aaa5e479a?version=1.0, https://packetstormsecurity.com/files/121716/CAREL-pCOWeb-1.5.0-Default-Credential-Shell-Access.html"
 ClinicPro,ClinicPro EMR,admin:abc123,,Electronic Medical / Health Records Software,,https://dariusfreamon.wordpress.com/2015/07/11/clinicpro-default-admin-credentials/
 Contemporary Control Systems,BASRT-B,admin:admin,80/tcp,Router,http,http://www.ccontrols.com/pdf/TD0712000I2.pdf
 Datasensor,UR5i/UR5i SL,root:root,80/tcp,Router,http,http://datasensor.de/sites/datasensor.de/files/datasheets/UR5i_m_e.pdf
@@ -70,6 +71,9 @@ General Electric Intelligent Platforms,"IC698CPE030, IC698CPE040, IC698CRE030, I
 General Electric Healthcare,FASTlab Synthesizer,Admin:admin,,synthesizer,,https://dariusfreamon.wordpress.com/2015/07/12/ge-healthcare-fastlab-synthesizer-default-credentials/
 General Electric Healthcare,"TRACERlab FX2 devices (model C, MeI and N)",admin:tracerlab (physical access required),,Synthesis module,,https://dariusfreamon.wordpress.com/2015/07/12/ge-healthcare-tracerlab-fx2-default-admin-credentials/
 General Electric Healthcare,TRACERlab FX2 M,"tracerlab:tracerlab (for remote access), admin:tracerlab",,chemistry synthesizer,,https://dariusfreamon.wordpress.com/2015/07/12/ge-healthcare-tracerlab-fx2-m-multiple-default-credentials/
+General Electric Healthcare,"HiSpeed CT/i, Lightspeed QX/i","root:#bigguy, ctuser:4$apps",,Computed Tomography Scanner,,https://dariusfreamon.wordpress.com/2014/09/04/ge-medical-systems-hispeed-cti-system-multiple-default-accounts/
+General Electric Healthcare,"Discovery CT590 RT, Optima CT580 ",root:#bigguy,,Computed Tomography Scanner,,https://dariusfreamon.wordpress.com/2014/09/04/ge-medical-systems-hispeed-cti-system-multiple-default-accounts/
+General Electric Healthcare,Datex-Ohmeda Engström Ventilator,"23-17-21 (Super User), 34-22-14 (service-level)",,Carestation Ventilators,http://static.medonecapital.com/manuals/techManuals/Datex-Ohmeda-Engstrom-VentilatorTechnical-Manual.pdf
 Helmholz Systeme,NETLink PRO HW 1-1a-1 and FW 1. 54 and higher,"NETLink PRO PoE:admin",,Ethernet Gateway for MPI/PROFIBUS,HTTP,https://www.helmholz.com/dnl/NETLink_PRO_PoE_QSG_v2_en.pdf
 Hirschmann,"RS20/RS30, MICE","user:public, admin:private",80/tcp,Switch,http,"http://www.wwsinternational.com.au/Hirschmann/pdf/quickstart.pdf;, Hirschmann MICE.pdf"
 Hirschmann,RSP 20/25/30/35,"user:public, admin:private",23/tcp (telnet),Industrial router,telnet,http://www.prosoft.ru/cms/f/456864.pdf
@@ -77,6 +81,7 @@ Hirschmann,MACH 4000 Family/MACH 1000 Family/MACH 100 Family/MACH 4002 Family/MA
 Hirschmann,"OCTOPUS 8M..., OCTOPUS 16M..., OCTOPUS 24M…","user:public, admin:private",23/tcp,Industrial router,telnet,https://www.neteon.net/media/downloads/IG_Octopus8M16M24M_PoETrain_02_0708_en_1.pdf
 HollySys Automation Technologies,LK SERIES PLC,"FTP blank, Telnet blank","21/tcp, 23/tcp",PLC,"FTP, Telnet",http://plcscan.org/blog/2014/12/hollysys-lk-series-plc-system-default-password-vulnerability/
 Honeywell,Honeywell XL,"Guest:guest, SysAdmin:honey",80/tcp,Controller,HTTP,
+Honeywell,Alerton BCM-WEB,pass,,"BACtalk control module, Web server and Configurator CD",,https://dariusfreamon.wordpress.com/2015/05/01/honeywell-alerton-bcm-web-default-admin-credentials/
 IBM,2210,def:trade,, Multiprotocol Router,,http://www.governmentsecurity.org/_/articles/default-logins-and-passwords-for-networked-devices.html
 Kostal Solar,"PIKO-Inverter 3.0, 3.6, 4.2, 5.5, 7.0, 8.3, 10.1",pvserver:pvwr,80/tcp,solar inverter,HTTP,http://www.kostal-solar-electric.com/Standalone/MediaDispositionViewer.aspx?medid=7a7356e144fd48b0b8557c4249cb35fd
 Lantronix,"EDS-MD 4, EDS-MD 8, EDS-MD 16",admin:PASS,80/tcp,Medical Device Server,HTTP,https://dariusfreamon.wordpress.com/2015/07/11/lantronix-eds-md-medical-device-server-web-interface-default-admin-credentials/
@@ -96,6 +101,7 @@ Netcomm Wireless,"3G21WB (BigPond Firmware), 3G9WB (BigPond Firmware), N3G001W (
 Netcomm Wireless,"NB1300 Plus 4 (Netcomm Firmware), NP803N (Netcomm Firmware)",admin:password,,Router,,http://www.pcwintech.com/default-router-modem-passwords2
 NOVUS AUTOMATION,SuperView,superview:superview,,SCADA,,http://www.novusautomation.com/downloads/Arquivos/v29x_a_manual_superview_english.pdf
 NOVUS Automation,AirGate-3G,admin:admin,, Dual SIM Industrial Cellular VPN Router,,https://dariusfreamon.wordpress.com/2016/02/02/novus-airgate-3g-dual-sim-industrial-cellular-vpn-router-default-admin-credentials/
+NOVUS Automation,"N1040, N480D, N960, N1020, N1040i, N1540, N2000, N3000 and N120","1111 (ACESS PASSWORD), 9 3 2 1 (MASTER PASSWORD)",,Temperature Controller,,https://dariusfreamon.wordpress.com/2015/04/18/novus-n1040-controller/
 Nuance,Dragon Medical 360 Network Edition,admin:password,80/tcp,Medical Speech Recognition Software Solutions,HTTP,https://dariusfreamon.wordpress.com/2015/07/11/dragon-medical-360-network-edition-nuance-management-console-default-admin-credentials/
 Omron IA,CJ1M CPU Units with Ethernet Functions,"for http: ETHERNET, for ftp: CONFIDENTIAL","80/tcp (http), 21/tcp (ftp)",PLC,"http, ftp",http://omronkft.hu/nostree/pdfs/plc/cs1_cj1/w441-e1-03+cj-series-ethernetfunc+opermanual.pdf
 Omron,"NS-Series Programmable Terminals Web Interface (NS12-TS01-V2, NS10-TV01-V2, NS8-TV01-V2, NS5-SQ11-V2, NS5-TQ11-V2 and NS5-MQ11-V2)",default:default,80/tcp,Programmable Terminals,HTTP,http://www.omronkft.hu/nostree/pdfs/ns/v100-e1-01.pdf
@@ -140,11 +146,13 @@ Siemens,Sicam SGU,"admin@root:charleM!800",9443/tcp,RTU,HTTPS,http://w3.siemens.
 Siemens,SC 7000 / SC 9000XL,"4712 (passcode, physical access required)",,Patient Monitors Service,,https://dariusfreamon.wordpress.com/2015/07/12/siemens-sc-7000-sc-9000xl-patient-monitors-default-admin-passcode/
 Sierra Wireless,AirLink,sconsole:12345,"12345/tcp, 2332/tcp",3G/4G gateway,"telnet, ssh",official documentation
 Sierra Wireless,AirLink,"user:12345, viewer:12345",9191/tcp,3G/4G gateway,http,official documentation
+SMA Solar Technology,Sunny WebBox,Installer:sma,80/tcp,ICS device for data logging,HTTP,https://dariusfreamon.wordpress.com/2015/05/02/sunny-webbox-default-password-and-denial-of-service/
 Stulz GmbH,Stulz WIB 8000,"Administrator, highest authorization:, ganymed, Medium authorization:, kallisto, Lowest authorization:, europa",,PLC,,https://dariusfreamon.wordpress.com/2013/09/07/stulz-wib-8000-air-conditioning-web-interface-board-multiple-vulnerabilities/
 TAC AB,"TAC Xenta 500/700/911/913, TAC Xenta 511, TAC Xenta 527, ",root:root,,PLC,,http://www.xref.be/dpdf/tac_xenta911_xenta511_manuel_uk.pdf
 Tecomat,Tecomat Foxtrot ,"0:0 (role 0) , 1:1 (role 1), 2:2 (role 2), 3:3 (role 3), 4:4 (role 4), 5:5 (role 5), 6:6 (role 6), 7:7 (role 7), 8:8 (role 8), 9:9 (role 9) ",,PLC,,http://dsec.ru/ipm-research-center/notification-of-vulnerabilities/tecomat_plc_paroli_po_umolchaniyu/
 Tridium,NiagaraAX,tridium:niagara,,"Software for JACE-2, JACE-403 or JACE-545",,http://www.hvacc.net/pdf/tridium/docs_3.2.16/docJaceStartup/docJaceStartup.pdf
 Turck,"BL20-E-GW-EN, BL67-E-GW-EN","HTTP: password, FTP: (unspecified hardcoded)","21/tcp, 80/tcp",PLC,http,"http://pdb.turck.de/media/_in/Anlagen/D301173.pdf,http://ics-cert.us-cert.gov/advisories/ICSA-13-136-01"
+Ubiquiti,AirControl,ubnt:ubnt,9005/tcp,Web Management Application,,https://dariusfreamon.wordpress.com/2015/04/16/ubiquiti-aircontrol-web-management-default-admin-credentials/
 Wago,WAGO-I/O-SYSTEM 750,"admin:wago, user:user, guest:guest",80/tcp,Controller ,http,http://www.wago.spb.ru/upload/information_system_28/3/2/8/item_328/information_items_property_340.pdf
 Wago,WAGO-I/O-IPC 758-870/000-xxx,"http, ftp:, user:user00 , administrator:, su:ko2003wa",80/tcp (http),Compact Industrial PC ,"http, ftp",http://www.wago.com/wagoweb/documentation/758/eng_manu/870/q07580870_00000000_2en.pdf
 Wago,Modular I/O-System Linux Fieldbus Coupler 750-860 ,"root:wago , admin:wago, user:user , guest:guest ",,PLC,,http://www.wago.com/wagoweb/documentation/750/eng_manu/coupler_controller/m07500860_00000000_0en.pdf
@@ -155,6 +163,7 @@ Westermo,"RedFox Series, Wolverine Series, Lynx Series, Falcon Series, Viper Ser
 Wonderware,Intouch,Administrator:Wonderware,,SCADA,,http://www.automation-talk.info/2011/01/default-intouch-login-username-password.html
 Wonderware,Historian,"SQL Server Login: aadbo:pwddbo, wwdbo:pwddbo, aaAdmin:pwAdmin, wwAdmin:wwAdmin, aaPower:pwPower, wwPower:wwPower, aaUser:pwUser, wwUser:wwUser",,SQL Server,SSMS,https://drive.google.com/folderview?id=0B8or_Z9VHNfCeFIwbEY5RUk5SDA&usp=sharing
 Wonderware,System Platform/Archestra,administrator:blank,,Integrated Development Environment,,https://insource.mindtouch.us/Support_Tickets/Industrial_Application_Server/Installation%2F%2FConfiguration/028076_-_What_is_the_default_Administrator_username_and_password_for_the_Archestra_IDE
+Xzeres,442SR,MyTurbine:m442+SRt,,small wind turbine,,https://dariusfreamon.wordpress.com/2015/05/03/xzeres-442s-wind-turbine-web-interface-default-credentials/
 Yokogawa,YFGW410 gateway,admin:!admin,,Wireless Management Station,,http://www.yokogawa.com/us/support/knowledgebase/i-cannot-login-to-the-yfgw410-gateway-what-is-the-default-username-and-password-of-a-yfgw410-isa100-gateway.htm
 Yokogawa,DX1000/DX1000N/DX2000 Advanced,"Administrator 1:Admin1, Administrator 2:Admin2, ..., Administrator 5:Admin5, User 1:User01, ..., User 90:User90",,Software,,http://web-material3.yokogawa.com/IM04L41B01-05EN_020.pdf
 Yokogawa,CENTUM CS 3000 DCS,CENTUM:CENTUM,,Distributed Control System,,http://www.allinterview.com/showanswers/170266/having-yokogawa-centum-cs-3000-dcs-2-fcs-4-operation-download-message-appears-eq.html
