@@ -33,7 +33,9 @@ BK Ultrasound,bk3000,administrator:superuser,,Ultrasound System,,https://dariusf
 Carlo Gavazzi,PowerSoft,"admin:admin, user:user",,modular software,,https://www.gavazzionline.com/pdf/PowerSoftIMENG.pdf
 CAREL,pCOWeb,"root:froot, carel:fcarel, guest:fguest, httpadmin:fhttpadmin (ftp), admin:fadmin (http), passwordless accounts via telnet: http::48:48:HTTP users:/usr/http/root:/bin/bash, nobody::99:99:nobody:/var/lib/nobody:/bin/bash","21/tcp, 80/tcp",communication card,"FTP, HTTP","http://www.carel.com/documents/10191/0/%2B030220471/9619472f-f1c0-4ec9-a151-120aaa5e479a?version=1.0, https://packetstormsecurity.com/files/121716/CAREL-pCOWeb-1.5.0-Default-Credential-Shell-Access.html"
 ClinicPro,ClinicPro EMR,admin:abc123,,Electronic Medical / Health Records Software,,https://dariusfreamon.wordpress.com/2015/07/11/clinicpro-default-admin-credentials/
+Compumedics,"E-Series EEG, E-Series EEG/PSG, Siesta and Safiro data acquisition systems and the ProFusion EEG data acquisitionand analysis software",0000 (security dialogue password),,"Electroencephalograph Systems,data acquisition systems, HMI software",,https://dariusfreamon.wordpress.com/2014/08/29/compumedics-software-default-password/
 Contemporary Control Systems,BASRT-B,admin:admin,80/tcp,Router,http,http://www.ccontrols.com/pdf/TD0712000I2.pdf
+Datex-Ohmeda,S/5 Light Monitor,16-4-34,,portable vital signs monitor,https://dariusfreamon.wordpress.com/2014/08/28/datex-ohmeda-s5-light-monitor-default-installservice-menu-password/
 Datasensor,UR5i/UR5i SL,root:root,80/tcp,Router,http,http://datasensor.de/sites/datasensor.de/files/datasheets/UR5i_m_e.pdf
 Deif,AWC 500,"root:deif7800 (administrator), default:1234 (user)",,Advanced Wind turbine Controller,,http://www.deifwindpower.com/Files/Files/Documentation/Products/AWC-500/4189340733_AWC_500_Getting_started.pdf
 Digi,DC-ME-01T-S,root:dbps,,Networking Modules,http,http://www.digi.com/support/forum/13553/digi-connect-me-default-password
@@ -79,6 +81,7 @@ Hirschmann,"RS20/RS30, MICE","user:public, admin:private",80/tcp,Switch,http,"ht
 Hirschmann,RSP 20/25/30/35,"user:public, admin:private",23/tcp (telnet),Industrial router,telnet,http://www.prosoft.ru/cms/f/456864.pdf
 Hirschmann,MACH 4000 Family/MACH 1000 Family/MACH 100 Family/MACH 4002 Family/MACH104 Family Full Gigabit/MACH 1040 Family Full Gigabit,"user:public, admin:private",,Industrial router,,"Hirschmann MACH1040 Full Gigabit.pdf, Hirschmann MACH4002 Family.pdf, Hirschmann MACH1000 Family.pdf, Hirschmann MACH4000 Family.pdf, http://www.industrialcomms.co.uk/images/pdf/IG_MACH104_02_1210_en.pdf, http://www.industrialcomms.co.uk/images/pdf/IG_MACH100_03_0709_en.pdf"
 Hirschmann,"OCTOPUS 8M..., OCTOPUS 16M..., OCTOPUS 24M…","user:public, admin:private",23/tcp,Industrial router,telnet,https://www.neteon.net/media/downloads/IG_Octopus8M16M24M_PoETrain_02_0708_en_1.pdf
+Hitachi,EUB-550,Service Tools:SERVICETOOL,,Ultrasound Diagnostic Scanner,,https://dariusfreamon.wordpress.com/2014/08/25/hitachi-eub-5500-ultrasound-diagnostic-scanner-default-password/
 HollySys Automation Technologies,LK SERIES PLC,"FTP blank, Telnet blank","21/tcp, 23/tcp",PLC,"FTP, Telnet",http://plcscan.org/blog/2014/12/hollysys-lk-series-plc-system-default-password-vulnerability/
 Honeywell,Honeywell XL,"Guest:guest, SysAdmin:honey",80/tcp,Controller,HTTP,
 Honeywell,Alerton BCM-WEB,pass,,"BACtalk control module, Web server and Configurator CD",,https://dariusfreamon.wordpress.com/2015/05/01/honeywell-alerton-bcm-web-default-admin-credentials/
@@ -87,8 +90,10 @@ Kostal Solar,"PIKO-Inverter 3.0, 3.6, 4.2, 5.5, 7.0, 8.3, 10.1",pvserver:pvwr,80
 Lantronix,"EDS-MD 4, EDS-MD 8, EDS-MD 16",admin:PASS,80/tcp,Medical Device Server,HTTP,https://dariusfreamon.wordpress.com/2015/07/11/lantronix-eds-md-medical-device-server-web-interface-default-admin-credentials/
 LOYTEC Electronics,"L-DALI DALI Light Controller, L-INX Automation Server, L-GATE Universal Gateway, L-IP CEA-709/IP Router, L-VIS, LIOB-10x I/O Module, LIOB-x5x I/O Module, LIP-ME20X L-IP BACnet Router, LWEB-802, LWEB-803, LWEB-900 Building Management System",admin:loytec4u,80/tcp,Multiple Devices,HTTP,https://dariusfreamon.wordpress.com/2016/02/01/loytec-electronics-multiple-devices-web-interface-default-admin-credentials/
 LOYTEC Electronics,L-Proxy CEA-709 Gateway,admin:admin,80/tcp,Gateway, HTTP,https://dariusfreamon.wordpress.com/2016/02/01/loytec-electronics-multiple-devices-web-interface-default-admin-credentials/
+Metrobility,NetBeacon Element Management Software,"guest:guest, admin:admin, root:root",23/tcp,HMI Software,Telnet,https://dariusfreamon.wordpress.com/2014/09/02/netbeacon-element-management-software-multiple-default-credentials/
 Mitsubishi,PLC QnUCPU QnUDVCPU,MELSEC:MELSEC,21/tcp,PLC,"FTP, HTTP",http://dl.mitsubishielectric.com/dl/fa/document/manual/plc/sh080811eng/sh080811engp.pdf
 Mitsubishi,PLC QnUCPU QnUDE(H)CPU,QNUDECPU:QNUDECPU,21/tcp,PLC,"FTP, HTTP",http://dl.mitsubishielectric.com/dl/fa/document/manual/plc/sh080811eng/sh080811engp.pdf
+Mitsubishi,MES3-255C-EN,"ecoV:ecopass, guest:user",,Web server,,https://dariusfreamon.wordpress.com/2014/02/28/mitsubishi-energy-saving-data-collecting-server-ecowebserver-iii-mes3-255c-en-default-credentials/
 Moxa,AirWorks AWK-3131-RCC,admin:root,80/tcp,Industrial 802.11n wireless AP/bridge/client,HTTP,http://www.moxa.com/doc/man/AWK-3131-RCC_UM_1e.pdf
 Moxa,"Railway Remote I/O (ioLogik E12xx, ioLogik E15xx)","HTTP on Port 9020: 1)none:root, 2)none:none",9020/tcp,Remote Ethernet I/O,HTTP,http://www.toolswatch.org/2013/02/new-scada-default-passwords-added-to-dpe-xml-database/
 Moxa,"Cellular Micro RTU Controller (ioLogik W53xx, ioLogik)","administrator:blank, Telnet on port 9900 / 9000: root:root",9900/9000/tcp,micro RTU controller,telnet or serial console,http://www.toolswatch.org/2013/02/new-scada-default-passwords-added-to-dpe-xml-database/
@@ -108,6 +113,7 @@ Omron,"NS-Series Programmable Terminals Web Interface (NS12-TS01-V2, NS10-TV01-V
 Ouman,EH-net server,admin:admin,,HMI Software,,http://docplayer.fi/509891-Palvelin-eh-net-kayttoonotto-ja-yllapito-www-ouman-fi.html
 Phasefale Controls,JouleTemp,admin:pass,80/tcp,PLC,HTTP,http://phasefale.com.au/wp-content/themes/twentythirteen/docs/JouleRange/JouleTemp/jt_instruction_iss8.pdf
 Phoenix Contact,Logic+,admin:admin,80/tcp,Software,http,https://www.phoenixcontact.com/assets/downloads_ed/global/web_dwl_technical_info/52005213_EN.pdf
+PIPS Technology,AUTOPLATE,"<blank> (Telnet), wl_test:wl_test, vesstore:vesstore, ftp_boot:ftp_boot (FTP)","23/tcp, 21/tcp",license plate recognition system,"Telnet, FTP",https://dariusfreamon.wordpress.com/2014/02/19/pips-technology-autoplate-automatic-license-plate-recognition-alpr-multiple-vulnerabilities/
 Prosoft Technology,ICX30-HWC,admin:password,80/tcp,Industrial Cellular Gateway,HTTP,http://www.prosoft-technology.com/content/download/8772/168219/version/9/file/ICX30_HWC_User_Manual.pdf
 Rockwell Automation / Allen-Bradley,1756-EN2TSC,Administrator:admin,80/tcp,EtherNet/IP communication module,HTTP,http://literature.rockwellautomation.com/idc/groups/literature/documents/um/enet-um003_-en-p.pdf
 Rockwell Automation / Allen-Bradley,1734-AENT,admin:password,80/tcp, I/O Adapter,HTTP,http://literature.rockwellautomation.com/idc/groups/literature/documents/um/1734-um011_-en-p.pdf
@@ -150,6 +156,7 @@ SMA Solar Technology,Sunny WebBox,Installer:sma,80/tcp,ICS device for data loggi
 Stulz GmbH,Stulz WIB 8000,"Administrator, highest authorization:, ganymed, Medium authorization:, kallisto, Lowest authorization:, europa",,PLC,,https://dariusfreamon.wordpress.com/2013/09/07/stulz-wib-8000-air-conditioning-web-interface-board-multiple-vulnerabilities/
 TAC AB,"TAC Xenta 500/700/911/913, TAC Xenta 511, TAC Xenta 527, ",root:root,,PLC,,http://www.xref.be/dpdf/tac_xenta911_xenta511_manuel_uk.pdf
 Tecomat,Tecomat Foxtrot ,"0:0 (role 0) , 1:1 (role 1), 2:2 (role 2), 3:3 (role 3), 4:4 (role 4), 5:5 (role 5), 6:6 (role 6), 7:7 (role 7), 8:8 (role 8), 9:9 (role 9) ",,PLC,,http://dsec.ru/ipm-research-center/notification-of-vulnerabilities/tecomat_plc_paroli_po_umolchaniyu/
+Trafficware,ATMS.now,naztec:naztec,,Advanced Traffic Management System,,https://dariusfreamon.wordpress.com/2014/02/20/trafficware-atms-now-default-credentials/
 Tridium,NiagaraAX,tridium:niagara,,"Software for JACE-2, JACE-403 or JACE-545",,http://www.hvacc.net/pdf/tridium/docs_3.2.16/docJaceStartup/docJaceStartup.pdf
 Turck,"BL20-E-GW-EN, BL67-E-GW-EN","HTTP: password, FTP: (unspecified hardcoded)","21/tcp, 80/tcp",PLC,http,"http://pdb.turck.de/media/_in/Anlagen/D301173.pdf,http://ics-cert.us-cert.gov/advisories/ICSA-13-136-01"
 Ubiquiti,AirControl,ubnt:ubnt,9005/tcp,Web Management Application,,https://dariusfreamon.wordpress.com/2015/04/16/ubiquiti-aircontrol-web-management-default-admin-credentials/
