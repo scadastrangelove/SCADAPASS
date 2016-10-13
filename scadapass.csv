@@ -63,7 +63,7 @@ Emerson,IP-KVM Avocent MergePoint Unity,Admin:blank,,Switch,"local, HTTP",http:/
 Emerson,Ovation DCS,wdpf,,Switch for Distributed Control System,Telnet,https://supportforums.cisco.com/sites/default/files/legacy/0/3/9/11930-cs2.txt
 Emerson,Ovation DCS,"SNMP community string: wdpfRO",,Switch for Distributed Control System,SNMP,https://supportforums.cisco.com/sites/default/files/legacy/0/3/9/11930-cs2.txt
 Endress+Hauser,Fieldgate FXA520,super:super,80/tcp,Gateway for remote monitoring and diagnosis,HTTP,https://portal.endress.com/wa001/dla/5000241/6638/000/03/BA00051SEN_1514.pdf
-Endress+Hauser,Fieldgate Viewer,admin:0000,HMI software,,https://dariusfreamon.wordpress.com/2013/10/15/endresshauser-fieldgate-viewer-default-credentials/
+Endress+Hauser,Fieldgate Viewer,admin:0000,,HMI software,,https://dariusfreamon.wordpress.com/2013/10/15/endresshauser-fieldgate-viewer-default-credentials/
 ENTES,"EMG-10, EMG-02 , EMG-12","emg12 (for EMG12), emg10 (for EMG10), emg02 (for EMG02)",80/tcp,MODBUS Gateway,http,http://www.entes.com.tr/dosyalar/EMG_Series_EN-ver_2_2.pdf
 eWON,all,adm:adm,80/tcp,Router,http,http://ewon.biz/sites/default/files/aug-004-0-en-ewon_getting_started.pdf
 Falcon,USHA,USHA:admin,80/tcp,UPS SNMP HTTP AGENT,HTTP,https://dariusfreamon.wordpress.com/2016/01/28/falcon-usha-ups-snmp-http-agent-default-admin-credentials/
