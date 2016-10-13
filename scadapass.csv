@@ -7,7 +7,7 @@ Vendor,Device,Default password,Port,Device type,Protocol,Source
 ABB,AC 800M,service:ABB800xA,,Controller,,https://library.e.abb.com/public/f355a67551218ae7c1257dc0003298c5/3BDS021515-600_-_en_AC_800M_6.0_PROFINET_IO_Configuration.pdf
 ABB,SREA-01,admin:admin,80/tcp,Ethernet Adapter Module,http,https://www.inverterdrive.com/file/ABB-SREA-01-Manual
 Adcon Telemetry,Telemetry Gateway A840 and Wireless Modem A440,root:840sw,terminal program,Base Station,,http://www.adcon.com/index.php?option=com_docman&task=doc_download&gid=41&Itemid=239&lang=de
-Adcon Telemetry,addVANTAGE Pro 6.1,root:root,8080/tcp,HMI,HTTP,http://adcon.com/index.php?option=com_docman&task=doc_download&gid=31&Itemid=239&lang=en
+Adcon Telemetry,"addVANTAGE Pro 6.1, 6.5",root:root,8080/tcp,HMI,HTTP,"http://adcon.com/index.php?option=com_docman&task=doc_download&gid=31&Itemid=239&lang=en, http://scient.static.otenet.gr:8080/doc/admin_help_en.pdf"
 Advantech,Advantech WebAccess browser-based HMI and SCADA software,admin:blank,80/tcp,browser-based HMI and SCADA software,HTTP,http://advantech.vo.llnwd.net/o35/www/webaccess/driver_manual/Advantech-WebAccess-Quick-Start-Guide.pdf
 Alcatel-Lucent,OmniSwitch 6250,admin:switch,"80/tcp, 23/tcp",switch,"HTTP, Telnet",https://dariusfreamon.wordpress.com/tag/defaults/
 Allied Telesis,"IE200 Series: AT-IE200-6GT, AT-IE200-6GP, AT-IE200-6FT, AT-IE200-6FP",manager:friend,terminal or terminal emulator program,Industrial Ethernet Switches,,http://www.alliedtelesis.com/userfiles/file/IE200_InstallGuide_RevC.pdf
@@ -63,6 +63,7 @@ Emerson,IP-KVM Avocent MergePoint Unity,Admin:blank,,Switch,"local, HTTP",http:/
 Emerson,Ovation DCS,wdpf,,Switch for Distributed Control System,Telnet,https://supportforums.cisco.com/sites/default/files/legacy/0/3/9/11930-cs2.txt
 Emerson,Ovation DCS,"SNMP community string: wdpfRO",,Switch for Distributed Control System,SNMP,https://supportforums.cisco.com/sites/default/files/legacy/0/3/9/11930-cs2.txt
 Endress+Hauser,Fieldgate FXA520,super:super,80/tcp,Gateway for remote monitoring and diagnosis,HTTP,https://portal.endress.com/wa001/dla/5000241/6638/000/03/BA00051SEN_1514.pdf
+Endress+Hauser,Fieldgate Viewer,admin:0000,HMI software,,https://dariusfreamon.wordpress.com/2013/10/15/endresshauser-fieldgate-viewer-default-credentials/
 ENTES,"EMG-10, EMG-02 , EMG-12","emg12 (for EMG12), emg10 (for EMG10), emg02 (for EMG02)",80/tcp,MODBUS Gateway,http,http://www.entes.com.tr/dosyalar/EMG_Series_EN-ver_2_2.pdf
 eWON,all,adm:adm,80/tcp,Router,http,http://ewon.biz/sites/default/files/aug-004-0-en-ewon_getting_started.pdf
 Falcon,USHA,USHA:admin,80/tcp,UPS SNMP HTTP AGENT,HTTP,https://dariusfreamon.wordpress.com/2016/01/28/falcon-usha-ups-snmp-http-agent-default-admin-credentials/
@@ -76,6 +77,7 @@ General Electric Healthcare,TRACERlab FX2 M,"tracerlab:tracerlab (for remote acc
 General Electric Healthcare,"HiSpeed CT/i, Lightspeed QX/i","root:#bigguy, ctuser:4$apps",,Computed Tomography Scanner,,https://dariusfreamon.wordpress.com/2014/09/04/ge-medical-systems-hispeed-cti-system-multiple-default-accounts/
 General Electric Healthcare,"Discovery CT590 RT, Optima CT580 ",root:#bigguy,,Computed Tomography Scanner,,https://dariusfreamon.wordpress.com/2014/09/04/ge-medical-systems-hispeed-cti-system-multiple-default-accounts/
 General Electric Healthcare,Datex-Ohmeda Engström Ventilator,"23-17-21 (Super User), 34-22-14 (service-level)",,Carestation Ventilators,,http://static.medonecapital.com/manuals/techManuals/Datex-Ohmeda-Engstrom-VentilatorTechnical-Manual.pdf
+Heatmiser,Netmonitor,admin:admin,80/tcp,gateway between the outside world and heating system,HTTP,http://www.thefloorheatingwarehouse.co.uk/acatalog/netmonitor_user_v3.pdf
 Helmholz Systeme,NETLink PRO HW 1-1a-1 and FW 1. 54 and higher,"NETLink PRO PoE:admin",,Ethernet Gateway for MPI/PROFIBUS,HTTP,https://www.helmholz.com/dnl/NETLink_PRO_PoE_QSG_v2_en.pdf
 Hirschmann,"RS20/RS30, MICE","user:public, admin:private",80/tcp,Switch,http,"http://www.wwsinternational.com.au/Hirschmann/pdf/quickstart.pdf;, Hirschmann MICE.pdf"
 Hirschmann,RSP 20/25/30/35,"user:public, admin:private",23/tcp (telnet),Industrial router,telnet,http://www.prosoft.ru/cms/f/456864.pdf
@@ -86,7 +88,7 @@ HollySys Automation Technologies,LK SERIES PLC,"FTP blank, Telnet blank","21/tcp
 Honeywell,Honeywell XL,"Guest:guest, SysAdmin:honey",80/tcp,Controller,HTTP,
 Honeywell,Alerton BCM-WEB,pass,,"BACtalk control module, Web server and Configurator CD",,https://dariusfreamon.wordpress.com/2015/05/01/honeywell-alerton-bcm-web-default-admin-credentials/
 IBM,2210,def:trade,, Multiprotocol Router,,http://www.governmentsecurity.org/_/articles/default-logins-and-passwords-for-networked-devices.html
-Kostal Solar,"PIKO-Inverter 3.0, 3.6, 4.2, 5.5, 7.0, 8.3, 10.1",pvserver:pvwr,80/tcp,solar inverter,HTTP,http://www.kostal-solar-electric.com/Standalone/MediaDispositionViewer.aspx?medid=7a7356e144fd48b0b8557c4249cb35fd
+Kostal Solar,"PIKO-Inverter 3.0, 3.6, 4.2, 5.5, 7.0, 8.3, 10.1, PIKO BA Storage System",pvserver:pvwr,80/tcp,"solar inverter, storage system",HTTP,"http://www.kostal-solar-electric.com/Standalone/MediaDispositionViewer.aspx?medid=7a7356e144fd48b0b8557c4249cb35fd, https://dariusfreamon.wordpress.com/2014/01/15/kostal-solar-piko-ba-storage-system-web-interface-default-admin-credentials/"
 Lantronix,"EDS-MD 4, EDS-MD 8, EDS-MD 16",admin:PASS,80/tcp,Medical Device Server,HTTP,https://dariusfreamon.wordpress.com/2015/07/11/lantronix-eds-md-medical-device-server-web-interface-default-admin-credentials/
 LOYTEC Electronics,"L-DALI DALI Light Controller, L-INX Automation Server, L-GATE Universal Gateway, L-IP CEA-709/IP Router, L-VIS, LIOB-10x I/O Module, LIOB-x5x I/O Module, LIP-ME20X L-IP BACnet Router, LWEB-802, LWEB-803, LWEB-900 Building Management System",admin:loytec4u,80/tcp,Multiple Devices,HTTP,https://dariusfreamon.wordpress.com/2016/02/01/loytec-electronics-multiple-devices-web-interface-default-admin-credentials/
 LOYTEC Electronics,L-Proxy CEA-709 Gateway,admin:admin,80/tcp,Gateway, HTTP,https://dariusfreamon.wordpress.com/2016/02/01/loytec-electronics-multiple-devices-web-interface-default-admin-credentials/
@@ -152,6 +154,7 @@ Siemens,Sicam SGU,"admin@root:charleM!800",9443/tcp,RTU,HTTPS,http://w3.siemens.
 Siemens,SC 7000 / SC 9000XL,"4712 (passcode, physical access required)",,Patient Monitors Service,,https://dariusfreamon.wordpress.com/2015/07/12/siemens-sc-7000-sc-9000xl-patient-monitors-default-admin-passcode/
 Sierra Wireless,AirLink,sconsole:12345,"12345/tcp, 2332/tcp",3G/4G gateway,"telnet, ssh",official documentation
 Sierra Wireless,AirLink,"user:12345, viewer:12345",9191/tcp,3G/4G gateway,http,official documentation
+Sinapsi,eSolar,admin:admin,80/tcp,Web-Server for photovoltaic applications,HTTP,http://www.sinapsitech.it/wp-content/uploads/2014/02/Handbook_standard_2.0_en.pdf
 SMA Solar Technology,Sunny WebBox,Installer:sma,80/tcp,ICS device for data logging,HTTP,https://dariusfreamon.wordpress.com/2015/05/02/sunny-webbox-default-password-and-denial-of-service/
 Stulz GmbH,Stulz WIB 8000,"Administrator, highest authorization:, ganymed, Medium authorization:, kallisto, Lowest authorization:, europa",,PLC,,https://dariusfreamon.wordpress.com/2013/09/07/stulz-wib-8000-air-conditioning-web-interface-board-multiple-vulnerabilities/
 TAC AB,"TAC Xenta 500/700/911/913, TAC Xenta 511, TAC Xenta 527, ",root:root,,PLC,,http://www.xref.be/dpdf/tac_xenta911_xenta511_manuel_uk.pdf
@@ -160,9 +163,11 @@ Trafficware,ATMS.now,naztec:naztec,,Advanced Traffic Management System,,https://
 Tridium,NiagaraAX,tridium:niagara,,"Software for JACE-2, JACE-403 or JACE-545",,http://www.hvacc.net/pdf/tridium/docs_3.2.16/docJaceStartup/docJaceStartup.pdf
 Turck,"BL20-E-GW-EN, BL67-E-GW-EN","HTTP: password, FTP: (unspecified hardcoded)","21/tcp, 80/tcp",PLC,http,"http://pdb.turck.de/media/_in/Anlagen/D301173.pdf,http://ics-cert.us-cert.gov/advisories/ICSA-13-136-01"
 Ubiquiti,AirControl,ubnt:ubnt,9005/tcp,Web Management Application,,https://dariusfreamon.wordpress.com/2015/04/16/ubiquiti-aircontrol-web-management-default-admin-credentials/
+Ubiquiti,AirOS,ubnt:ubnt,443/tcp,operation system,HTTPS,http://dl.ubnt.com/guides/airOS/airOS_UG.pdf
 Wago,WAGO-I/O-SYSTEM 750,"admin:wago, user:user, guest:guest",80/tcp,Controller ,http,http://www.wago.spb.ru/upload/information_system_28/3/2/8/item_328/information_items_property_340.pdf
 Wago,WAGO-I/O-IPC 758-870/000-xxx,"http, ftp:, user:user00 , administrator:, su:ko2003wa",80/tcp (http),Compact Industrial PC ,"http, ftp",http://www.wago.com/wagoweb/documentation/758/eng_manu/870/q07580870_00000000_2en.pdf
 Wago,Modular I/O-System Linux Fieldbus Coupler 750-860 ,"root:wago , admin:wago, user:user , guest:guest ",,PLC,,http://www.wago.com/wagoweb/documentation/750/eng_manu/coupler_controller/m07500860_00000000_0en.pdf
+WashTec,SoftCare Evo Type SE10,"00001 (limited access), 00000 (unlimited access)",,Roll-over car wash system,,http://www.washtec.com.au/files/tech-data/SoftCare2%20EVO%20Manual.pdf
 Wellintech,KingSCADA 3.0,administrator:administrator (role KVAdministrator),,Software,,http://www.slideshare.net/DefconRussia/pavel-volobuev-alexander-minozhenko-alexander-polyakov-practical-demonstration-of-typical-attacks-and-0days-in-scada-and-plccontrollers
 Westermo,TDW 33,"no password, just return, Hardcoded password: n3Y9kA6otYZu8, (?? TD-36)",,Industrial Modem,,http://www.etitudela.com/entrenadorcomunicaciones/downloads/modemrtbtdw33manual.pdf
 Westermo,MRD-305-DIN/MRD-310/MRD-315/MRD-330/MRD-355/MRD-350/MRD-455,admin:westermo,80/tcp,Industrial router,http,"http://www.eternity-sales.com/westermo/files/westermo_ug_6623-2266_mrd-305-DIN_en.pdf, Westermo MRD 330.pdf"
