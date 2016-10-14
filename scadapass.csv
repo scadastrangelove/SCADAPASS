@@ -46,7 +46,8 @@ Digi,"Digi Connect WAN, Digi Connect WAN GPRS, Digi Connect WAN GSM-R, Digi Conn
 Digi,Digi TransPort WR21/WR44,username:password,80/tcp,Industrial router,http,http://ftp1.digi.com/support/documentation/transport/assets/guides/IG_Digi_WR21.pdf
 Digi,Digi CM,root:dbps,"console port (9600, 8, N, 1)",Industrial router,,http://ftp1.digi.com/support/documentation/90000300_E.pdf
 Digi,DigiOne IAP Serial,root:dbps,80/tcp,Gateway,http,http://web-material3.yokogawa.com/IMMW100EIP.pdf
-Echelon,i.LON SmartServer,"for ftp and lns servers:, ilon:ilon",,router,"ftp, L2TP",http://www.unicom-bg.com/pdf/systemintegration/iLONproducts/i.LON_SmartServer_Freely_Programmable_Modules_User_Guide.pdf
+Echelon,"i.LON SmartServer","for ftp and lns servers: ilon:ilon",,"Programmable Modules","ftp, L2TP",http://www.unicom-bg.com/pdf/systemintegration/iLONproducts/i.LON_SmartServer_Freely_Programmable_Modules_User_Guide.pdf
+Echelon,"i.LON SmartServer, i.LON SmartServer 2.0, i.LON 600, i.LON 100e4",ilon:ilon,80/tcp,"Building Energy Management Solution, LonWorks/IP Server, Internet Server",HTTP,https://dariusfreamon.wordpress.com/2013/05/10/echelon-i-lon-defaults/ 
 Electro Industries/GaugeTech,"Nexus 1500+, Nexus 1500",anonymous:anonymous,80/tcp,Power Quality Meter,HTTP,"http://www.electroind.com/products/Nexus_1500+/pdf/manuals/Nexus%201500+%20Power%20Quality%20Meter%20User%20Manual%20V.1.01_E154713.pdf, http://www.electroind.com/products/Nexus_1500/pdf/manuals/Nexus%201500%20Transient%20Recording%20Power%20Quality%20Revenue%20Meter%20User%20Manual%20V.1.12_E154701.pdf"
 Electro Industries/GaugeTech,Communicator EXT 3.0,eignet:inp100,80/tcp,Power Monitoring Software,HTTP,http://www.electroind.com/pdf/11_13_12_pdf/E107707_ComEXT_Manual.pdf
 Emerson,DeltaV Digital Automation System,Administrator:deltav,,Automation System,,http://www.chem.mtu.edu/chem_eng/current/new_courses/CM4120/2009/Getting%20Started.pdf
@@ -83,6 +84,7 @@ Hirschmann,"RS20/RS30, MICE","user:public, admin:private",80/tcp,Switch,http,"ht
 Hirschmann,RSP 20/25/30/35,"user:public, admin:private",23/tcp (telnet),Industrial router,telnet,http://www.prosoft.ru/cms/f/456864.pdf
 Hirschmann,MACH 4000 Family/MACH 1000 Family/MACH 100 Family/MACH 4002 Family/MACH104 Family Full Gigabit/MACH 1040 Family Full Gigabit,"user:public, admin:private",,Industrial router,,"Hirschmann MACH1040 Full Gigabit.pdf, Hirschmann MACH4002 Family.pdf, Hirschmann MACH1000 Family.pdf, Hirschmann MACH4000 Family.pdf, http://www.industrialcomms.co.uk/images/pdf/IG_MACH104_02_1210_en.pdf, http://www.industrialcomms.co.uk/images/pdf/IG_MACH100_03_0709_en.pdf"
 Hirschmann,"OCTOPUS 8M..., OCTOPUS 16M..., OCTOPUS 24M…","user:public, admin:private",23/tcp,Industrial router,telnet,https://www.neteon.net/media/downloads/IG_Octopus8M16M24M_PoETrain_02_0708_en_1.pdf
+Hirschmann,EAGLE 20,"admin:private, user:public",443/tcp,Industrial ETHERNET Firewall,HTTPS,https://dariusfreamon.wordpress.com/2013/09/05/hirschmann-automation-and-control-eagle-20-defaults/
 Hitachi,EUB-550,Service Tools:SERVICETOOL,,Ultrasound Diagnostic Scanner,,https://dariusfreamon.wordpress.com/2014/08/25/hitachi-eub-5500-ultrasound-diagnostic-scanner-default-password/
 HollySys Automation Technologies,LK SERIES PLC,"FTP blank, Telnet blank","21/tcp, 23/tcp",PLC,"FTP, Telnet",http://plcscan.org/blog/2014/12/hollysys-lk-series-plc-system-default-password-vulnerability/
 Honeywell,Honeywell XL,"Guest:guest, SysAdmin:honey",80/tcp,Controller,HTTP,
@@ -156,7 +158,7 @@ Sierra Wireless,AirLink,sconsole:12345,"12345/tcp, 2332/tcp",3G/4G gateway,"teln
 Sierra Wireless,AirLink,"user:12345, viewer:12345",9191/tcp,3G/4G gateway,http,official documentation
 Sinapsi,eSolar,admin:admin,80/tcp,Web-Server for photovoltaic applications,HTTP,http://www.sinapsitech.it/wp-content/uploads/2014/02/Handbook_standard_2.0_en.pdf
 SMA Solar Technology,Sunny WebBox,Installer:sma,80/tcp,ICS device for data logging,HTTP,https://dariusfreamon.wordpress.com/2015/05/02/sunny-webbox-default-password-and-denial-of-service/
-Stulz GmbH,Stulz WIB 8000,"Administrator, highest authorization:, ganymed, Medium authorization:, kallisto, Lowest authorization:, europa",,PLC,,https://dariusfreamon.wordpress.com/2013/09/07/stulz-wib-8000-air-conditioning-web-interface-board-multiple-vulnerabilities/
+Stulz GmbH,Stulz WIB 8000,"Administrator, highest authorization: ganymed, Medium authorization: kallisto, Lowest authorization: europa",,PLC,,https://dariusfreamon.wordpress.com/2013/09/07/stulz-wib-8000-air-conditioning-web-interface-board-multiple-vulnerabilities/
 TAC AB,"TAC Xenta 500/700/911/913, TAC Xenta 511, TAC Xenta 527, ",root:root,,PLC,,http://www.xref.be/dpdf/tac_xenta911_xenta511_manuel_uk.pdf
 Tecomat,Tecomat Foxtrot ,"0:0 (role 0) , 1:1 (role 1), 2:2 (role 2), 3:3 (role 3), 4:4 (role 4), 5:5 (role 5), 6:6 (role 6), 7:7 (role 7), 8:8 (role 8), 9:9 (role 9) ",,PLC,,http://dsec.ru/ipm-research-center/notification-of-vulnerabilities/tecomat_plc_paroli_po_umolchaniyu/
 Trafficware,ATMS.now,naztec:naztec,,Advanced Traffic Management System,,https://dariusfreamon.wordpress.com/2014/02/20/trafficware-atms-now-default-credentials/
