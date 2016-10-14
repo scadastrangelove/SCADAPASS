@@ -8,8 +8,8 @@ ABB,AC 800M,service:ABB800xA,,Controller,,https://library.e.abb.com/public/f355a
 ABB,SREA-01,admin:admin,80/tcp,Ethernet Adapter Module,http,https://www.inverterdrive.com/file/ABB-SREA-01-Manual
 Adcon Telemetry,Telemetry Gateway A840 and Wireless Modem A440,root:840sw,terminal program,Base Station,,http://www.adcon.com/index.php?option=com_docman&task=doc_download&gid=41&Itemid=239&lang=de
 Adcon Telemetry,"addVANTAGE Pro 6.1, 6.5",root:root,8080/tcp,HMI,HTTP,"http://adcon.com/index.php?option=com_docman&task=doc_download&gid=31&Itemid=239&lang=en, http://scient.static.otenet.gr:8080/doc/admin_help_en.pdf"
+Advantech,"SNMP-1000, MIC-3924",advantech:admin,serial port,"system management module, intelligent chassis management module",,"http://support.elmark.com.pl/advantech/pdf/SNMP-1000man.pdf, https://ecauk.com/files/2011/08/Advantech-MIC-3924-User-Manual.pdf"
 Advantech,Advantech WebAccess browser-based HMI and SCADA software,admin:blank,80/tcp,browser-based HMI and SCADA software,HTTP,http://advantech.vo.llnwd.net/o35/www/webaccess/driver_manual/Advantech-WebAccess-Quick-Start-Guide.pdf
-Advantech,"SNMP-1000, MIC-3924",advantech:admin,serial port,"system management module, intelligent chassis management module",,"http://support.elmark.com.pl/advantech/pdf/SNMP-1000man.pdf, https://ecauk.com/files/2011/08/Advantech-MIC-3924-User-Manual.pdf" 
 Advantech,EKI-7659C,admin:admin,80/tcp,industrial switch,HTTP,http://www.rts.ua/catalog/advantech/pdf/EKI-7659C_2_201316.pdf
 Advantech,ADAM-6200 Series,root:00000000,80/tcp,Intelligent Ethernet I/O Module,HTTP,http://www.bb-elec.com/Products/Manuals/ADAM-6200m-pdf.pdf
 Advantech,ADAM-6050W,00000000,,I/O module,,http://datasheet.octopart.com/ADAM-6050W-AE-Advantech-datasheet-32780543.pdf
