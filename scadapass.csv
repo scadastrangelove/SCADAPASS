@@ -9,6 +9,11 @@ ABB,SREA-01,admin:admin,80/tcp,Ethernet Adapter Module,http,https://www.inverter
 Adcon Telemetry,Telemetry Gateway A840 and Wireless Modem A440,root:840sw,terminal program,Base Station,,http://www.adcon.com/index.php?option=com_docman&task=doc_download&gid=41&Itemid=239&lang=de
 Adcon Telemetry,"addVANTAGE Pro 6.1, 6.5",root:root,8080/tcp,HMI,HTTP,"http://adcon.com/index.php?option=com_docman&task=doc_download&gid=31&Itemid=239&lang=en, http://scient.static.otenet.gr:8080/doc/admin_help_en.pdf"
 Advantech,Advantech WebAccess browser-based HMI and SCADA software,admin:blank,80/tcp,browser-based HMI and SCADA software,HTTP,http://advantech.vo.llnwd.net/o35/www/webaccess/driver_manual/Advantech-WebAccess-Quick-Start-Guide.pdf
+Advantech,"SNMP-1000, MIC-3924",advantech:admin,serial port,"system management module, intelligent chassis management module",,"http://support.elmark.com.pl/advantech/pdf/SNMP-1000man.pdf, https://ecauk.com/files/2011/08/Advantech-MIC-3924-User-Manual.pdf" 
+Advantech,EKI-7659C,admin:admin,80/tcp,industrial switch,HTTP,http://www.rts.ua/catalog/advantech/pdf/EKI-7659C_2_201316.pdf
+Advantech,ADAM-6200 Series,root:00000000,80/tcp,Intelligent Ethernet I/O Module,HTTP,http://www.bb-elec.com/Products/Manuals/ADAM-6200m-pdf.pdf
+Advantech,ADAM-6050W,00000000,,I/O module,,http://datasheet.octopart.com/ADAM-6050W-AE-Advantech-datasheet-32780543.pdf
+Advantech,ADAM-3600-A1F,"Root:00000000, Admin:00000000, User:00000000",80/tcp,Remote I/O Module,HTTP,https://www.proxis.ua/files/documents/UM-ADAM-3600-A1F-Ed1-EN.pdf
 Alcatel-Lucent,OmniSwitch 6250,admin:switch,"80/tcp, 23/tcp",switch,"HTTP, Telnet",https://dariusfreamon.wordpress.com/tag/defaults/
 Allied Telesis,"IE200 Series: AT-IE200-6GT, AT-IE200-6GP, AT-IE200-6FT, AT-IE200-6FP",manager:friend,terminal or terminal emulator program,Industrial Ethernet Switches,,http://www.alliedtelesis.com/userfiles/file/IE200_InstallGuide_RevC.pdf
 Argus,Argus Messenger,ArgusAdmin:masterkey,,Messenger,,https://dariusfreamon.wordpress.com/2015/07/11/argus-suite-multiple-default-credentials/
