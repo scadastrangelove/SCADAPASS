@@ -28,8 +28,12 @@ B&B ELECTRONICS,LR77 v2 Libratum/LR77 v2,root:root,80/tcp,Industrial router,http
 B&B ELECTRONICS,UR5i v2,root:root,80/tcp,Industrial router,http,http://www.cd.lucom.de/vpn-industrie-router/dokumentation/handbuch/ur5iv2-guide.pdf
 B&B ELECTRONICS,UCR11-v2/UCR11 v2 SL,root:root,80/tcp,Industrial router,http,http://www.induowireless.com/wp-content/uploads/2014/03/ucr11-3g-router-hspa-cdma.pdf
 B&B ELECTRONICS,XR5i v2E/XR5i v2/XR5i/XR5i SL,root:root,80/tcp,Industrial router,http,http://www.cd.lucom.de/vpn-industrie-router/dokumentation/handbuch/xr5iv2e-guide.pdf
+B&B ELECTRONICS,ES1A,root:dbps,80/tcp,Converter,HTTP,http://www.bb-elec.com/Products/Manuals/pn-6909-rev003_ES1A-5012m.pdf
+B&B ELECTRONICS,Vlinx VESR4x4,<blank>,,SERIAL SERVER,,http://www.bb-elec.com/Products/Manuals/VESP211-5012m.pdf
+B&B ELECTRONICS,Vlinx MESR9xx Modbus Gateway,<blank>,,Modbus Gateway,,https://www.manualshelf.com/manual/b-b-electronics/vlinx-mesr9xx/modbus-gateway-brochure/page-31.html
 Barco,MediCal QAWeb Agent,Advanced:advanced,,client application,,https://dariusfreamon.wordpress.com/2015/07/10/barco-medical-qaweb-agent-default-password/
 Beckhoff Automation GmbH,CX5020,webguest:1,23/tcp,PLC,Telnet,https://www.researchgate.net/publication/272420507_ICSSCADA_Security_Analysis_of_a_Beckhoff_CX5020_PLC
+Beckhoff Automation GmbH,TwinCAT,Administrator:1,,Software for the Windows control and automation technology,,https://infosys.beckhoff.com/english.php?content=../content/1033/sw_os/html/cx1000_os_xpe_geninfo.htm&id=
 Beck IPC, IPC@CHIP,"PPPSERVER:, ppps:ppps",,PLC,pap/chap,https://www.beck-ipc.com/files/api/scxxx/config.htm
 BinTec Elmeg,BinTec X1200 II,"admin:bintec, ",,Router,,http://www.router-defaults.com/Router/BinTec--x1200-ip-password-username
 BinTec Elmeg,any routers,"(##unknown - means not known or any char):, ##unknown:snmp-Trap , suggested:, admin:1234, admin:password, admin:admin",,Router,,http://www.router-defaults.com/Router/BinTec--x1200-ip-password-username
@@ -56,9 +60,12 @@ Echelon,"i.LON SmartServer","for ftp and lns servers: ilon:ilon",,"Programmable 
 Echelon,"i.LON SmartServer, i.LON SmartServer 2.0, i.LON 600, i.LON 100e4",ilon:ilon,80/tcp,"Building Energy Management Solution, LonWorks/IP Server, Internet Server",HTTP,https://dariusfreamon.wordpress.com/2013/05/10/echelon-i-lon-defaults/ 
 Electro Industries/GaugeTech,"Nexus 1500+, Nexus 1500",anonymous:anonymous,80/tcp,Power Quality Meter,HTTP,"http://www.electroind.com/products/Nexus_1500+/pdf/manuals/Nexus%201500+%20Power%20Quality%20Meter%20User%20Manual%20V.1.01_E154713.pdf, http://www.electroind.com/products/Nexus_1500/pdf/manuals/Nexus%201500%20Transient%20Recording%20Power%20Quality%20Revenue%20Meter%20User%20Manual%20V.1.12_E154701.pdf"
 Electro Industries/GaugeTech,Communicator EXT 3.0,eignet:inp100,80/tcp,Power Monitoring Software,HTTP,http://www.electroind.com/pdf/11_13_12_pdf/E107707_ComEXT_Manual.pdf
+Emerson,AMS Suit,"admin:<blank>, sa:42Emerson42Eme (SQL Server)",,diagnostic software,,"http://www2.emersonprocess.com/siteadmincenter/PM%20Asset%20Optimization%20Documents/ProductReferenceAndGuides/amsdm_ru_quickinstallv12.pdf, http://www2.emersonprocess.com/siteadmincenter/PM%20Asset%20Optimization%20Documents/ProductReferenceAndGuides/amsdm_ru_installguide13.pdf"
 Emerson,DeltaV Digital Automation System,Administrator:deltav,,Automation System,,http://www.chem.mtu.edu/chem_eng/current/new_courses/CM4120/2009/Getting%20Started.pdf
 Emerson,Liebert IntelliSlot Web Card,"Liebert:Liebert, User:User",23/tcp,Web Card ,telnet,http://www.emersonnetworkpower.com/documentation/en-us/products/monitoring/documents/sl-52615.pdf
+Emerson,Liebert OpenComms Web Card,Liebert:Liebert,80/tcp,Web Card,HTTP,http://www.emersonnetworkpower.com/documentation/en-us/products/monitoring/documents/sl-52610.pdf
 Emerson,Smart Wireless Gateway 1420,"admin:default, maint:default, oper:default, exec:default",80/tcp,Wireless Gateway,http,http://www2.emersonprocess.com/siteadmincenter/PM%20Rosemount%20Documents/00809-0200-4420.pdf
+Emerson,Smart Wireless Navigator,"for the Windows log in Administrator:navigator, for Smart Wireless Navigator log in Supervisor:Admin, User1:Password1, User2:Password2, User3:Password3",,stand-alone network infrastructure management tool,,http://www2.emersonprocess.com/siteadmincenter/pm%20rosemount%20documents/00809-0100-4423.pdf
 Emerson,Network Power MPH2 Rack PDU,admin:admin,80/tcp,Rack PDUs,http,https://community.emerson.com/networkpower/support/avocent/power/mph2/m/mediagallery/3093
 Emerson,UL33 UPS,123456,,UPS,Serial,http://www.emersonnetworkpower-partner.com/ArticleDocuments/4091/UL33%20User%20Manual%20Communication.doc.aspx
 Emerson,Control Link Refrigeration System Controller,0000,,Controller,,http://foodservice.structuralconcepts.com/media/com_sccmanager/temp-controller-info/emerson-control-link-cpc-controller.pdf
