@@ -50,6 +50,9 @@ CAREL,pRack PR100,"user password: 0000, service  password: 1234, manufacturer pa
 CAREL,humiSteam x-plus,77,,humidifiers,,http://www.airsystems.ro/assets/manual-humisteam-xplus--0300040en.pdf
 CAREL,PlantVisorPRO Locale,admin:admin,443/tcp,Plant supervision,HTTPS,http://www.alltyperefrigeration.com.au/logos/monitoring/quick_guide.pdf
 CAREL,PlantWatchPRO,"PVRemote:PD35010 (from a remote PC via a telephone connection)",80/tcp,supervisor for small-medium installations,HTTP,http://www.carel.co.th/documents/10191/0/%2B040000021/4b549ef7-3d35-4454-bc04-91ba26aa945d?version=1.0
+CAREL,μC2SE,"Direct level: <blank>, user level: 22, super user level: 11, factory level: 66",,electronic controller,,http://planetaklimata.com.ua/instr/Carel/Carel_mC2SE_User_Manual_Eng.pdf
+ClimateWorx International,In-Row M52 Microprocessor,1024 (Service level),,controller,,http://www.climateworxinternational.com/pdf/manuals/In_Row_Controller_User_Guide.pdf
+ClimateWorx International,M52 Microprocessor,"Level 1: 1024, level 2: 4321, level 3: 1234",,controller,,http://www.climateworxinternational.com/pdf/manuals/m52umCT.pdf
 ClinicPro,ClinicPro EMR,admin:abc123,,Electronic Medical / Health Records Software,,https://dariusfreamon.wordpress.com/2015/07/11/clinicpro-default-admin-credentials/
 Compumedics,"E-Series EEG, E-Series EEG/PSG, Siesta and Safiro data acquisition systems and the ProFusion EEG data acquisitionand analysis software",0000 (security dialogue password),,"Electroencephalograph Systems,data acquisition systems, HMI software",,https://dariusfreamon.wordpress.com/2014/08/29/compumedics-software-default-password/
 Contemporary Control Systems,BASRT-B,admin:admin,80/tcp,Router,http,http://www.ccontrols.com/pdf/TD0712000I2.pdf
@@ -66,6 +69,7 @@ Digi,Digi CM,root:dbps,"console port (9600, 8, N, 1)",Industrial router,,http://
 Digi,DigiOne IAP Serial,root:dbps,80/tcp,Gateway,http,http://web-material3.yokogawa.com/IMMW100EIP.pdf
 Echelon,"i.LON SmartServer","for ftp and lns servers: ilon:ilon",,"Programmable Modules","ftp, L2TP",http://www.unicom-bg.com/pdf/systemintegration/iLONproducts/i.LON_SmartServer_Freely_Programmable_Modules_User_Guide.pdf
 Echelon,"i.LON SmartServer, i.LON SmartServer 2.0, i.LON 600, i.LON 100e4",ilon:ilon,80/tcp,"Building Energy Management Solution, LonWorks/IP Server, Internet Server",HTTP,https://dariusfreamon.wordpress.com/2013/05/10/echelon-i-lon-defaults/ 
+Echelon,LumInsight,Echelon:echeloncorp,,Central Management System,,http://www.echelon.com/assets/blt3db1ad5ba909f610/LumInsight%20CMS%20Installation%20Guide_078-1059-01C.pdf
 Electro Industries/GaugeTech,"Nexus 1500+, Nexus 1500",anonymous:anonymous,80/tcp,Power Quality Meter,HTTP,"http://www.electroind.com/products/Nexus_1500+/pdf/manuals/Nexus%201500+%20Power%20Quality%20Meter%20User%20Manual%20V.1.01_E154713.pdf, http://www.electroind.com/products/Nexus_1500/pdf/manuals/Nexus%201500%20Transient%20Recording%20Power%20Quality%20Revenue%20Meter%20User%20Manual%20V.1.12_E154701.pdf"
 Electro Industries/GaugeTech,Communicator EXT 3.0,eignet:inp100,80/tcp,Power Monitoring Software,HTTP,http://www.electroind.com/pdf/11_13_12_pdf/E107707_ComEXT_Manual.pdf
 Emerson,AMS Suit,"admin:<blank>, sa:42Emerson42Eme (SQL Server)",,diagnostic software,,"http://www2.emersonprocess.com/siteadmincenter/PM%20Asset%20Optimization%20Documents/ProductReferenceAndGuides/amsdm_ru_quickinstallv12.pdf, http://www2.emersonprocess.com/siteadmincenter/PM%20Asset%20Optimization%20Documents/ProductReferenceAndGuides/amsdm_ru_installguide13.pdf"
@@ -87,6 +91,12 @@ Emerson,Ovation DCS,"SNMP community string: wdpfRO",,Switch for Distributed Cont
 Endress+Hauser,Fieldgate FXA520,super:super,80/tcp,Gateway for remote monitoring and diagnosis,HTTP,https://portal.endress.com/wa001/dla/5000241/6638/000/03/BA00051SEN_1514.pdf
 Endress+Hauser,Fieldgate Viewer,admin:0000,,HMI software,,https://dariusfreamon.wordpress.com/2013/10/15/endresshauser-fieldgate-viewer-default-credentials/
 ENTES,"EMG-10, EMG-02 , EMG-12","emg12 (for EMG12), emg10 (for EMG10), emg02 (for EMG02)",80/tcp,MODBUS Gateway,http,http://www.entes.com.tr/dosyalar/EMG_Series_EN-ver_2_2.pdf
+ENTES,"DTR-10, MCB-125/126",0000,,time relay,,"http://www.entes.com.tr/dosyalar/DTR-10%20EN%20A5299%20R2.pdf, http://www.entes.com.tr/dosyalar/mcb-125-126%20EN_.pdf"
+ENTES,MPR-53CS,0000,,network analyzer,,http://www.entes.com.tr/dosyalar/MPR_53CS_ing_A4396_R2%20.pdf
+ENTES,GEM-05/GEM-10/10SH,gem10,80/tcp,GPRS/Modbus Gateway,HTTP,http://www.produktinfo.conrad.com/datenblaetter/125000-149999/128714-an-01-en-ENTES_EPM_04C_DIN_DIGITALMULTIMETER.pdf
+ENTES,ENTBUS PLUS,admin:1234,,Energy Management Software,,http://www.entes.com.tr/dosyalar/ENTBUS%20Plus_Client_EN.pdf
+ENTES,EPM-04/04C/04CS,0000,,MULTIMETER,,http://www.produktinfo.conrad.com/datenblaetter/125000-149999/128714-an-01-en-ENTES_EPM_04C_DIN_DIGITALMULTIMETER.pdf
+ENTES,MPR-SW,admin:<blank>,,Monitoring & Reporting Software,,http://tde-instruments.de/images/stories/produkte/MPR-SW2_Software_fuer_Fernueberwachung/entes_mpr-sw2-software-instruction_manual.pdf
 eWON,all,adm:adm,80/tcp,Router,http,http://ewon.biz/sites/default/files/aug-004-0-en-ewon_getting_started.pdf
 Falcon,USHA,USHA:admin,80/tcp,UPS SNMP HTTP AGENT,HTTP,https://dariusfreamon.wordpress.com/2016/01/28/falcon-usha-ups-snmp-http-agent-default-admin-credentials/
 General Electric Intelligent Platforms,IC695PNC001,admin:system,23/tcp (telnet) or USB,PROFINET Controller,telnet,http://platforma.astor.com.pl/files/getfile/id/6314
@@ -99,6 +109,8 @@ General Electric Healthcare,TRACERlab FX2 M,"tracerlab:tracerlab (for remote acc
 General Electric Healthcare,"HiSpeed CT/i, Lightspeed QX/i","root:#bigguy, ctuser:4$apps",,Computed Tomography Scanner,,https://dariusfreamon.wordpress.com/2014/09/04/ge-medical-systems-hispeed-cti-system-multiple-default-accounts/
 General Electric Healthcare,"Discovery CT590 RT, Optima CT580 ",root:#bigguy,,Computed Tomography Scanner,,https://dariusfreamon.wordpress.com/2014/09/04/ge-medical-systems-hispeed-cti-system-multiple-default-accounts/
 General Electric Healthcare,Datex-Ohmeda Engström Ventilator,"23-17-21 (Super User), 34-22-14 (service-level)",,Carestation Ventilators,,http://static.medonecapital.com/manuals/techManuals/Datex-Ohmeda-Engstrom-VentilatorTechnical-Manual.pdf
+General Electric Digital Energy,SNMP/Web Interface,"GE:GE (Telnet, HTTP), public (SNMP community string)","23/tcp, 80/tcp, 25/tcp",SNMP/Web Interface,"Telnet, HTTP, SNMP",http://www.lenz.pl/files/product/17678774a663fb06a1068b6cc0342292.pdf
+General Electric,"SymDec 4, WebServer, SymNav","Software: admin:admin, 12345 (Log In Password), Hardware: 0000 (Advanced Menu Password), 8111 (Factory Password), 1111 (Ethernet Access Reset Password), 2222 (DDNS Password)",80/tcp, Video Streaming Recorder,HTTP,http://static.interlogix.com/library/0150-0304c_symdec_4_uman.pdf
 Heatmiser,Netmonitor,admin:admin,80/tcp,gateway between the outside world and heating system,HTTP,http://www.thefloorheatingwarehouse.co.uk/acatalog/netmonitor_user_v3.pdf
 Helmholz Systeme,NETLink PRO HW 1-1a-1 and FW 1. 54 and higher,"NETLink PRO PoE:admin",,Ethernet Gateway for MPI/PROFIBUS,HTTP,https://www.helmholz.com/dnl/NETLink_PRO_PoE_QSG_v2_en.pdf
 Hirschmann,"RS20/RS30, MICE","user:public, admin:private",80/tcp,Switch,http,"http://www.wwsinternational.com.au/Hirschmann/pdf/quickstart.pdf;, Hirschmann MICE.pdf"
@@ -107,9 +119,11 @@ Hirschmann,MACH 4000 Family/MACH 1000 Family/MACH 100 Family/MACH 4002 Family/MA
 Hirschmann,"OCTOPUS 8M..., OCTOPUS 16M..., OCTOPUS 24M…","user:public, admin:private",23/tcp,Industrial router,telnet,https://www.neteon.net/media/downloads/IG_Octopus8M16M24M_PoETrain_02_0708_en_1.pdf
 Hirschmann,EAGLE 20,"admin:private, user:public",443/tcp,Industrial ETHERNET Firewall,HTTPS,https://dariusfreamon.wordpress.com/2013/09/05/hirschmann-automation-and-control-eagle-20-defaults/
 Hitachi,EUB-550,Service Tools:SERVICETOOL,,Ultrasound Diagnostic Scanner,,https://dariusfreamon.wordpress.com/2014/08/25/hitachi-eub-5500-ultrasound-diagnostic-scanner-default-password/
+Hitachi,Web Controller,admin:1111,80/tcp,controller,HTTP,http://www.fhpsa.com/01_Biblioteca/03_Manuales/EH-W_NJI441E(X).pdf
 HollySys Automation Technologies,LK SERIES PLC,"FTP blank, Telnet blank","21/tcp, 23/tcp",PLC,"FTP, Telnet",http://plcscan.org/blog/2014/12/hollysys-lk-series-plc-system-default-password-vulnerability/
 Honeywell,Honeywell XL,"Guest:guest, SysAdmin:honey",80/tcp,Controller,HTTP,
 Honeywell,Alerton BCM-WEB,pass,,"BACtalk control module, Web server and Configurator CD",,https://dariusfreamon.wordpress.com/2015/05/01/honeywell-alerton-bcm-web-default-admin-credentials/
+Honeywell,NetAXS,admin:admin,443/tcp,access control unit,HTTPS,https://www.honeywellaccess.com/documents/UserManual_for_Release_3-800-04410-A.pdf
 IBM,2210,def:trade,, Multiprotocol Router,,http://www.governmentsecurity.org/_/articles/default-logins-and-passwords-for-networked-devices.html
 Kostal Solar,"PIKO-Inverter 3.0, 3.6, 4.2, 5.5, 7.0, 8.3, 10.1, PIKO BA Storage System",pvserver:pvwr,80/tcp,"solar inverter, storage system",HTTP,"http://www.kostal-solar-electric.com/Standalone/MediaDispositionViewer.aspx?medid=7a7356e144fd48b0b8557c4249cb35fd, https://dariusfreamon.wordpress.com/2014/01/15/kostal-solar-piko-ba-storage-system-web-interface-default-admin-credentials/"
 Lantronix,"EDS-MD 4, EDS-MD 8, EDS-MD 16",admin:PASS,80/tcp,Medical Device Server,HTTP,https://dariusfreamon.wordpress.com/2015/07/11/lantronix-eds-md-medical-device-server-web-interface-default-admin-credentials/
