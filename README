@@ -1,6 +1,63 @@
 #SCADA StrangeLove Default/Hardcoded Passwords List
 #Find more at http://www.scada.sl
 #Please contact us at scadastrangelove@gmail.com and @scadasl
+
+SCADA StrangeLove Default/Hardcoded Passwords List
+==================================================
+
+A curated list of default and hardcoded credentials for ICS/SCADA equipment:
+PLCs, DCS, RTUs, HMIs, SCADA software, industrial network gear, protection
+relays and building automation systems. Every entry carries a source URL
+(vendor documentation or security research).
+
+Files
+-----
+
+- scadapass.csv       - the main list: 341 entries, 107 vendors.
+                        Columns: Vendor, Device, Default password, Port,
+                        Device type, Protocol, Source.
+- scadapass_fixed.csv - companion list of FIXED/ELIMINATED default passwords:
+                        devices that no longer ship with a usable shared
+                        default (forced first-login change, unique per-device
+                        label passwords, vendor-patched hardcoded creds).
+                        Do not list these as having working defaults.
+
+Release 1.3 (October 2026)
+--------------------------
+
+First major update since 2016: +126 new entries covering 2016-2026.
+
+- PLC/DCS:        Siemens SCALANCE XM/XR, RUGGEDCOM ROS/NMS; Rockwell Stratix,
+                  PanelView; Schneider Modicon M580, Easergy P3, PowerLogic
+                  PM5500, Altivar dPAC; ABB Relion 615/REX615/REX640; Emerson
+                  ROC800/FB107; Honeywell Experion (mngr:mngr1), ControlEdge;
+                  Mitsubishi, Omron, Beckhoff, WAGO PFC, Bosch Rexroth ctrlX,
+                  CODESYS, Phoenix Contact mGuard/PLCnext; Unitronics Vision
+                  (1111, per CISA AA23-335A)
+- SCADA/HMI:      Ignition, Advantech WebAccess, Weintek EasyBuilder Pro,
+                  JCI Metasys, Siemens Desigo CC/PXC, GE EnerVista
+- Networking:     Moxa (MX-NOS, NPort, ioLogik, MXview), Teltonika RutOS,
+                  Sierra Wireless AirLink, Ewon Flexy/Cosy+, Red Lion
+                  Crimson/N-Tron, Cisco IE, Hirschmann HiOS, InHand
+- Power/relays:   SEL relays and RTAC (OTTER/TAIL/CLARKE), GE Multilin UR,
+                  Eaton PXG/PXM
+- BMS:            Tridium Niagara 4 (JACE-8000/9000, Edge 10), Honeywell WEBs,
+                  Distech ECLYPSE
+- Hardcoded CVEs: Emerson DeltaV (CVE-2022-29962..65), Honeywell ControlEdge /
+                  Safety Manager, Yokogawa STARDOM and CENTUM VP
+                  (CVE-2025-7741)
+
+New entries are sourced from official vendor documentation and security
+research (CISA ICS advisories, CVEs); the Source column in most new entries
+is prefixed with [official] / [research].
+
+Releases
+--------
+
+#release 1.1 by Oxana Andreeva (oxana.andreeva@inbox.ru)
 #release 1.2
-#release 1.3 (October 2026): +126 new entries (2016-2026) in scadapass.csv, new scadapass_fixed.csv - list of fixed/eliminated default passwords (forced change, unique label passwords, vendor-patched hardcoded creds)
+#release 1.3 (October 2026) by Sergey Gordeychik
+
 #kudos Oxana Andreeva (oxana.andreeva@inbox.ru), Jericho (attrition.org)
+
+Corrections and additions: scadastrangelove@gmail.com, @scadasl
