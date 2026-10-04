@@ -1,0 +1,40 @@
+#SCADA StrangeLove Fixed/Eliminated Default Passwords List,,,,,
+#Devices that NO LONGER ship with a usable shared default (forced change / unique label password / user-set only),,,,,
+#Companion to scadapass.csv - do not list these as having working defaults,,,,,
+#release 1.3 (October 2026) by Sergey Gordeychik,,,,,
+,,,,,
+Vendor,Device,Former default,Fix type,Since / version,Source
+Siemens,SIMATIC S7-1200 / S7-1500,no default password; access protection configured in TIA Portal,never had a shared default,all current firmware,
+Siemens,WinCC V13+ / WinCC Unified / WinCC (TIA) panels,forced password change at first login,forced change at first login,WinCC V13+,
+Siemens,SCALANCE XC-200 (and newer X-200 firmware),forced password change at first login,forced change at first login,firmware V4.0+,
+Rockwell Automation,"ControlLogix / CompactLogix / Micro800, PowerFlex drives, FactoryTalk",passwords are user-set during configuration; no factory default,never had a shared default,all current versions,
+Schneider Electric,ConneXium MCSESM switches / Modicon M580 embedded firewall,admin:private (firewall),forced change at first login,current firmware,https://www.se.com/ww/en/download/document/EIO0000001999/
+ABB,Ability System 800xA / AC 800M,no publicly documented default credentials,no public default,current versions,
+Hitachi Energy,RTU500 / MicroSCADA X,default accounts exist in delivery state but values are not published,values not published,current versions,
+Mitsubishi Electric,MELSEC iQ-R / iQ-F / GOT2000,project/engineer-set passwords only; no factory default,never had a shared default,current versions,
+Omron,NJ/NX machine controllers,fully user-configured; note: OPC UA anonymous login defaults to Permit on firmware < 1.43,no shared default (see caveat),firmware 1.43+,
+AVEVA,System Platform (Archestra),aaAdmin Network Services Account password chosen by installer,installer-chosen password,current versions,
+ICONICS,GENESIS64,no default accounts; caution: Security Server Testing mode grants all permissions when nobody is logged in,no shared default (see caveat),current versions,
+COPA-DATA,zenon,project-defined users; Runtime falls back to built-in SYSTEM user,no shared default,current versions,
+Cisco,IE 2000 / IE 4000 / IE 1000 (Express Setup),(blank):cisco,forced change at first login (Express Setup),all current firmware,https://www.cisco.com/c/dam/en/us/td/docs/switches/lan/cisco_ie2000/hardware/quick/all_languages/ie2000_en_gsg.pdf
+Teltonika,RUTX series / RUT (RutOS 7.x),admin:admin01,unique random password on device label + forced change,production batch 45 (2020) and newer,https://wiki.teltonika-networks.com/view/RUTX11_Setup_Wizard
+HMS Networks (Ewon),Ewon Cosy+,adm:adm,forced change at first setup (default adm cannot be kept),all firmware,https://support.hms-networks.com/hc/en-us/articles/6971374427794-Lost-Password-for-Cosy
+HMS Networks (Ewon),Ewon Flexy (2024+ serial numbers),adm:adm,unique password printed on device side sticker,serials 2427-0908-24 / 2436-0003-21 / 2436-0001-20 onward,https://www.hms-networks.com/support/tech-support/kb-articles/23177657384594-I-cannot-login-to-my-new-Flexy-with-adm-adm
+Belden/Hirschmann,HiOS switches / EAGLE40/60 firewalls,admin:private,forced change at first login,HiOS 07.1.00+ / HiSecOS 03.3.00+,https://www.belden.com/-/media/project/belden/catalog-assets/assets/2023/01/12/09/44/pdf-930206.pdf
+Tridium,JACE 9000 (Niagara 4.14+),admin:admin,forced change at first connection,Niagara 4.14+,https://www.tridium.com/content/dam/tridium/en/documents/document-lists/jace/tri-jace9000-faq-en-2025-0007.pdf
+Distech Controls,ECLYPSE ECY series controllers,admin:admin,forced change to strong password at first login,current firmware,https://autorem.fr/Docs/Distech%20Controls/Fiches%20techniques%20Automates%20et%20controleurs/Eclypse/05DI-UGIPNET-13.pdf
+Eaton,Power Xpert Meter 4000/6000/8000 web server,admin:admin,forced change at first login,current firmware,https://www.eaton.com/content/dam/eaton/products/low-voltage-power-distribution-controls-systems/power-energy-meters/power-xpert-4000-6000-8000/power-xpert-meter-4000-6000-8000-quick-start-guide-ib02601007e.pdf
+Eaton,Power Xpert Gateway X-Slot UPS card,admin:admin,MAC-derived default password (uppercase card MAC),firmware 2.6.0.5+,https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/power-management-software-connectivity/power-xpert-gateway-ups-card/eaton-pxgx-ups-card-user-guide-164202123.pdf
+CODESYS,CODESYS Control V3 runtime,no authentication at all before V3.5.14.0,user management enforced,V3.5.17.0+,https://customers.codesys.com/fileadmin/data/customers/security/2018/Advisory2018-10_CDS-61037.pdf
+Phoenix Contact,PLCnext Control AXC F 1152/2152/3152,admin:<shared> (pre-2020.x),unique 8-character password printed on device label,firmware 2020.x+,https://www.phoenixcontact.com/en-us/us-lp-us-plcnextedgegateway/us-lp-us-plcnextedgegateway-getting-started
+Sierra Wireless (Semtech),AirLink gateways (ALEOS),user:12345,unique password printed on device label,newer units,https://customercommunity.sierrawireless.com/s/article/How-to-log-in-to-an-ACEmanager-on-ALEOS-router
+Red Lion (HMS Networks),FlexEdge DA50A/DA70A,admin:<shared>,unique password printed on side sticker,current production,https://support.hms-networks.com/hc/en-us/articles/27220879966738-Crimson-FAQ
+Moxa,NPort 6000/5000 series,admin:moxa,no default credentials; first admin created at first login,firmware 2.0+ (NPort 6000: FW 1.21 and before still has admin:moxa),https://www.moxa.com/getmedia/5375272f-7895-431d-9251-325ce2dff217/moxa-nport-6000-series-manual-v17.7.pdf
+Advantech,WISE-4000 series,"root/admin/user:00000000",forced change at first login,current firmware,https://advdownload.advantech.com.cn/productfile/Downloadfile1/1-346OZ20/WISE-4000_User_Manual_Ed.6.pdf
+Johnson Controls,Metasys ADS/ADX/OAS servers,metasyssysagent:ChangeThi$Pa$$w0rdN0w!,default password shipped expired; forced change at first login,Metasys 6.0+,https://docs.johnsoncontrols.com/bas/r/Metasys/en-US/Metasys-Server-Installation-and-Upgrade-Instructions/12.0.50/Appendix-General-Information-and-Troubleshooting/Using-MetasysSysAgent-User-Name-and-Password
+ABB,Relion REX640,"VIEWER:remote0001 ... ADMINISTRATOR:remote0004",passwords required to be changed (documented as commissioning step),current firmware,https://library.e.abb.com/public/641862effc21429486cac300f54f3aef/REX640_tech_759142_ENc.pdf
+Schneider Electric,PowerLogic PM5500 series,user1:pass1 / user2:pass2,MAC-derived Administrator password on newer firmware,FW 4.0.0+ (PM5560),https://www.se.com/us/en/faqs/FA243273/
+Rockwell Automation,Stratix 5400/5700/ArmorStratix 5700,admin:switch,forced change during initial Express Setup,current firmware,https://literature.rockwellautomation.com/idc/groups/literature/documents/qs/iasimp-qs040_-en-e.pdf
+Emerson,DeltaV controllers / IO cards (FTP/Telnet/SSH hardcoded creds),hardcoded service credentials (values not disclosed),fixed by vendor (CVE-2022-29962/29963/29964/29965),patched mid-2022,https://www.cisa.gov/uscert/ics/advisories/icsa-22-181-03
+Honeywell,ControlEdge 900/2020 (hardcoded root),hardcoded root credentials (values not disclosed),fixed by vendor (CVE-2022-30318),patched 2022,https://www.cisa.gov/news-events/ics-advisories/icsa-22-207-02
+Yokogawa,STARDOM FCJ/FCN (hardcoded maintenance creds),hardcoded credentials (values not disclosed),fixed by vendor (CVE-2018-10592/17896/17900),patched 2018,https://www.cve.org/CVERecord?id=CVE-2018-17896

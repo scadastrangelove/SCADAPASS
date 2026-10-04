@@ -1,5 +1,6 @@
-#SCADA StrangeLove Default/Hardcoded Passwords List						
-#Find more at http://www.scada.sl		
+#SCADA StrangeLove Default/Hardcoded Passwords List
+#Find more at http://www.scada.sl
 #Please contact us at scadastrangelove@gmail.com and @scadasl
 #release 1.2
+#release 1.3 (October 2026): +126 new entries (2016-2026) in scadapass.csv, new scadapass_fixed.csv - list of fixed/eliminated default passwords (forced change, unique label passwords, vendor-patched hardcoded creds)
 #kudos Oxana Andreeva (oxana.andreeva@inbox.ru), Jericho (attrition.org)
